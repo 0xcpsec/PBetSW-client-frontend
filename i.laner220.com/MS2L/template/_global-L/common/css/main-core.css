@@ -1,0 +1,251 @@
+:root {
+    --c-av-odds-text: var(--c-av-theme-text-1);
+    --c-av-odds-minus-text: hsl(0, 100%, 50%);
+    --c-av-match-bg: #fff;
+    --c-av-match-even-bg: #f2f2f2;
+    --c-av-match-live-bg: #fce8d9;
+    --c-av-match-live-even-bg: #fadac1;
+    --c-av-match-bettype-bg: #f7f7f7;
+    --c-av-match-even-bettype-bg: #ebebeb;
+    --c-av-match-live-bettype-bg: #fbe0cb;
+    --c-av-match-live-even-bettype-bg: #f9d2b3
+}
+
+[data-darkmode="true"]:root {
+    --c-av-odds-minus-text: hsl(0, 100%, 60%)
+}
+
+[data-theme="default"] .c-odds-table:not(.c-odds-table--outright):not(.c-odds-table--fancy) .c-match:not(.c-is-even):not(.c-in-play) .c-match__bets .c-odds-button:not(:hover),
+[data-theme="default"] .c-odds-table:not(.c-odds-table--outright):not(.c-odds-table--fancy) .c-match:not(.c-is-even):not(.c-in-play) .c-match__extra-bets .c-odds-button:not(:hover) {
+    background-color: var(--c-av-odds-heavy-bg)
+}
+
+[data-theme="default"] .c-odds-table--outright .c-match:not(.c-match:nth-child(4n+3)):not(.c-match:nth-child(4n)) .c-match__bets .c-odds-button:not(:hover) {
+    background-color: var(--c-av-odds-heavy-bg)
+}
+
+:root {
+    --c-av-primary-50: HSL( calc(var(--c-av-primary-h) + 0), calc(var(--c-av-primary-s) + 40%), calc(var(--c-av-primary-l) + 40%));
+    --c-av-primary-100: HSL( calc(var(--c-av-primary-h) + 0), calc(var(--c-av-primary-s) + 32%), calc(var(--c-av-primary-l) + 32%));
+    --c-av-primary-200: HSL( calc(var(--c-av-primary-h) + 0), calc(var(--c-av-primary-s) + 24%), calc(var(--c-av-primary-l) + 24%));
+    --c-av-primary-300: HSL( calc(var(--c-av-primary-h) + 0), calc(var(--c-av-primary-s) + 16%), calc(var(--c-av-primary-l) + 16%));
+    --c-av-primary-400: HSL( calc(var(--c-av-primary-h) + 0), calc(var(--c-av-primary-s) + 8%), calc(var(--c-av-primary-l) + 8%));
+    --c-av-primary-500: HSL( var(--c-av-primary-h), var(--c-av-primary-s), var(--c-av-primary-l));
+    --c-av-primary-600: HSL( calc(var(--c-av-primary-h) + 2), calc(var(--c-av-primary-s) + 2%), calc(var(--c-av-primary-l) - 6%));
+    --c-av-primary-700: HSL( calc(var(--c-av-primary-h) + 4), calc(var(--c-av-primary-s) + 4%), calc(var(--c-av-primary-l) - 12%));
+    --c-av-primary-800: HSL( calc(var(--c-av-primary-h) + 6), calc(var(--c-av-primary-s) + 6%), calc(var(--c-av-primary-l) - 18%));
+    --c-av-primary-900: HSL( calc(var(--c-av-primary-h) + 8), calc(var(--c-av-primary-s) + 8%), calc(var(--c-av-primary-l) - 24%));
+    --c-av-secondary-50: HSL( calc(var(--c-av-secondary-h) + 0), calc(var(--c-av-secondary-s) + 40%), calc(var(--c-av-secondary-l) + 40%));
+    --c-av-secondary-100: HSL( calc(var(--c-av-secondary-h) + 0), calc(var(--c-av-secondary-s) + 32%), calc(var(--c-av-secondary-l) + 32%));
+    --c-av-secondary-200: HSL( calc(var(--c-av-secondary-h) + 0), calc(var(--c-av-secondary-s) + 24%), calc(var(--c-av-secondary-l) + 24%));
+    --c-av-secondary-300: HSL( calc(var(--c-av-secondary-h) + 0), calc(var(--c-av-secondary-s) + 16%), calc(var(--c-av-secondary-l) + 16%));
+    --c-av-secondary-400: HSL( calc(var(--c-av-secondary-h) + 0), calc(var(--c-av-secondary-s) + 8%), calc(var(--c-av-secondary-l) + 8%));
+    --c-av-secondary-500: HSL( var(--c-av-secondary-h), var(--c-av-secondary-s), var(--c-av-secondary-l));
+    --c-av-secondary-600: HSL( calc(var(--c-av-secondary-h) + 2), calc(var(--c-av-secondary-s) + 2%), calc(var(--c-av-secondary-l) - 6%));
+    --c-av-secondary-700: HSL( calc(var(--c-av-secondary-h) + 4), calc(var(--c-av-secondary-s) + 4%), calc(var(--c-av-secondary-l) - 12%));
+    --c-av-secondary-800: HSL( calc(var(--c-av-secondary-h) + 6), calc(var(--c-av-secondary-s) + 6%), calc(var(--c-av-secondary-l) - 18%));
+    --c-av-secondary-900: HSL( calc(var(--c-av-secondary-h) + 8), calc(var(--c-av-secondary-s) + 8%), calc(var(--c-av-secondary-l) - 24%));
+    --c-av-body-bg: hsl(0, 0%, 92%)
+}
+
+[data-darkmode="true"] .c-team {
+    --c-av-team-favor: var(--c-av-favor-color-1)
+}
+
+[data-darkmode="true"] .l-gc-boost-ticket {
+    --l-gc-boost-odds-bg-1: hsl(0, 0%, 56%);
+    --l-gc-boost-odds-bg-2: hsl(0, 0%, 37%);
+    --l-gc-boost-odds-border: hsla(0, 0%, 0%, .12)
+}
+
+[data-darkmode="true"] .l-gc-boost-odds__check {
+    background-color: #fff
+}
+
+[data-darkmode="true"] .l-gc-boost-label {
+    --l-gc-boost-label-bg-1: HSLA(var(--l-gc-boost-head-h), 100%, 100%, .38);
+    --l-gc-boost-label-bg-2: HSLA(var(--l-gc-boost-head-h), 100%, 0%, 0)
+}
+
+.c-left-bar--mini .c-side-promo {
+    --c-av-side-promo-sabapoint-btn-bg: hsl(7, 67%, 49%);
+    --c-av-side-promo-sabapoint-btn-hover-bg: hsl(7, 67%, 59%)
+}
+
+.l-side-sabapoint {
+    --l-av-side-sabapoint-border: var(--c-av-theme-border-2);
+    --l-av-side-sabapoint-icon: var(--c-av-white);
+    --l-av-side-sabapoint-icon-bg: hsl(7, 67%, 49%);
+    --l-av-side-text-title: var(--c-av-primary-500);
+    --l-av-side-text: var(--l-av-side-text-title)
+}
+
+.c-side-banner__item[data-default="true"] {
+    --c-av-side-banner-item-default-bg: var(--c-av-primary-500)
+}
+
+.c-betting {
+    --c-av-betting-combo-list-item-open-bg: HSL(var(--c-av-primary-h), var(--c-av-primary-s), 95%);
+    --c-av-betting-combo-list-item-quick-stake-btn-bg: HSL(var(--c-av-primary-h), var(--c-av-primary-s), 85%)
+}
+
+.l-side-switch {
+    --l-side-switch-text: var(--c-av-white);
+    --l-side-switch-bg: var(--c-av-primary-500);
+    --l-side-switch-image: none;
+    --l-side-switch-box-shadow: none;
+    --l-side-switch-icon: var(--c-av-white);
+    --l-side-switch-icon-bg: transparent
+}
+
+.l-exchange-popup {
+    --l-exchange-popup-group-bg: var(--c-av-lv1-theme-bg-2);
+    --l-exchange-popup-overlay-bg: var(--c-av-lv1-theme-bg-2);
+    --l-exchange-popup-currency-text: var(--c-av-theme-primary-text)
+}
+
+[class*="accountTable"] .tableRow-pointer .date-smaller>div:first-child,
+[class*="accountTable"] .tableRow .date-smaller>div:first-child {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.l-side-reward {
+    --l-av-side-reward-border: var(--c-av-theme-border-2);
+    --l-av-side-reward-icon: var(--c-av-white);
+    --l-av-side-text-title: var(--c-av-side-account-text);
+    --l-av-side-text: var(--c-av-primary-500);
+    --l-av-side-item-btn-text: var(--l-av-side-text-title);
+    --l-side-reward-item-btn-bg: HSLA( var(--c-av-primary-h), var(--c-av-primary-s), var(--c-av-primary-l), .21)
+}
+
+[data-darkmode="true"] .l-side-reward {
+    --l-av-side-text: var(--c-av-theme-text-1);
+    --l-side-reward-item-btn-bg: hsla(0, 0%, 100%, 0.18)
+}
+
+.l-vip-account[data-level="8"] {
+    --c-av-account-group-bottom: hsla(0, 0%, 100%, .16);
+    --l-av-side-text: var(--c-av-primary-500)
+}
+
+.l-vip-account[data-level="8"] .l-side-reward {
+    --l-av-side-reward-border: hsla(0, 0%, 100%, .16);
+    --l-av-side-item-btn-text: var(--c-av-white-opacity-1)
+}
+
+:root {
+    --c-av-brand-color: hsl(206, 51%, 47%);
+    --c-av-brand-h: 206;
+    --c-av-brand-s: 51%;
+    --c-av-brand-l: 47%;
+    --c-av-primary-color: var(--c-av-brand-color);
+    --c-av-primary-h: var(--c-av-brand-h);
+    --c-av-primary-s: var(--c-av-brand-s);
+    --c-av-primary-l: var(--c-av-brand-l);
+    --c-av-secondary-color: hsl(24, 94%, 47%);
+    --c-av-secondary-h: 24;
+    --c-av-secondary-s: 94%;
+    --c-av-secondary-l: 47%;
+    --c-av-odds-text: #00121f;
+    --c-av-odds-minus-text: #eb6307;
+    --c-av-favor-color-1: #eb6307
+}
+
+[data-darkmode="true"]:root {
+    --c-av-lv1-theme-bg-1: hsl(0, 0%, 0%);
+    --c-av-lv1-theme-bg-1-hover: hsl(0, 0%, 3%);
+    --c-av-lv1-theme-bg-2: hsl(0, 0%, 10%);
+    --c-av-lv1-theme-bg-2-hover: hsl(0, 0%, 13%);
+    --c-av-lv1-theme-bg-2-5: hsl(0, 0%, 15%);
+    --c-av-lv1-theme-bg-2-5-hover: hsl(0, 0%, 18%);
+    --c-av-lv1-theme-bg-3: hsl(0, 0%, 25%);
+    --c-av-lv1-theme-bg-3-hover: hsl(0, 0%, 28%);
+    --c-av-lv1-theme-bg-4: hsl(0, 0%, 35%);
+    --c-av-lv1-theme-bg-4-hover: hsl(0, 0%, 38%);
+    --c-av-lv2-theme-bg-1: hsl(0, 0%, 20%);
+    --c-av-lv2-theme-bg-1-hover: hsl(0, 0%, 23%);
+    --c-av-lv2-theme-bg-2: hsl(0, 0%, 25%);
+    --c-av-lv2-theme-bg-2-hover: hsl(0, 0%, 28%);
+    --c-av-theme-text-1: var(--c-av-white-opacity-1);
+    --c-av-theme-text-2: var(--c-av-white-opacity-2);
+    --c-av-theme-text-3: var(--c-av-white-opacity-3);
+    --c-av-theme-primary-text: var(--c-av-primary-400);
+    --c-av-theme-primary-text-hover: var(--c-av-primary-300);
+    --c-av-theme-primary-text-2: var(--c-av-primary-100);
+    --c-av-theme-primary-text-2-hover: var(--c-av-primary-50);
+    --c-av-theme-secondary-text: var(--c-av-secondary-400);
+    --c-av-theme-secondary-text-hover: var(--c-av-secondary-300);
+    --c-av-theme-secondary-text-2: var(--c-av-secondary-500);
+    --c-av-theme-secondary-text-2-hover: var(--c-av-secondary-400);
+    --c-av-theme-border-1: hsla(0, 0%, 100%, .08);
+    --c-av-theme-border-2: hsla(0, 0%, 100%, .16);
+    --c-av-theme-border-3: hsla(0, 0%, 100%, .24);
+    --c-av-in-play-color-1: hsl(0, 100%, 60%);
+    --c-av-in-play-color-2: hsl(0, 100%, 50%);
+    --c-av-in-play-color-3: hsl(0, 100%, 40%);
+    --c-av-in-play-color-4: hsl(0, 100%, 30%);
+    --c-av-in-play-color-5: hsl(0, 100%, 20%);
+    --c-av-waiting-color-1: hsl(6, 76%, 10%);
+    --c-av-waiting-color-2: hsl(6, 75%, 25%);
+    --c-av-waiting-color-3: hsl(6, 75%, 50%);
+    --c-av-accent-color-1: hsl(0, 100%, 60%);
+    --c-av-favor-color-1: var(--c-av-theme-secondary-text);
+    --c-av-muay-blue-color: hsl(220, 100%, 70%);
+    --c-av-muay-red-color: hsl(0, 100%, 70%);
+    --c-av-warning-color-1: hsl(45, 65%, 30%);
+    --c-av-warning-color-2: hsl(45, 95%, 58%);
+    --c-av-success-color-1: hsl(125, 40%, 30%);
+    --c-av-success-color-2: hsl(125, 70%, 46%);
+    --c-av-danger-color-1: hsl(0, 35%, 25%);
+    --c-av-danger-color-2: hsl(0, 100%, 74%);
+    --popup-lv1-theme-bg-1: hsl(0, 0%, 5%);
+    --popup-lv1-theme-bg-1-hover: hsl(0, 0%, 8%);
+    --popup-lv1-theme-bg-2: hsl(0, 0%, 10%);
+    --popup-lv1-theme-bg-2-hover: hsl(0, 0%, 13%);
+    --popup-lv1-theme-bg-2-5: hsl(0, 0%, 15%);
+    --popup-lv1-theme-bg-2-5-hover: hsl(0, 0%, 18%);
+    --popup-lv1-theme-bg-3: hsl(0, 0%, 20%);
+    --popup-lv1-theme-bg-3-hover: hsl(0, 0%, 23%);
+    --popup-lv1-theme-bg-4: hsl(0, 0%, 30%);
+    --popup-lv1-theme-bg-4-hover: hsl(0, 0%, 33%);
+    --popup-lv2-theme-bg-1: hsl(0, 0%, 15%);
+    --popup-lv2-theme-bg-1-hover: hsl(0, 0%, 18%);
+    --popup-lv2-theme-bg-2: hsl(0, 0%, 25%);
+    --popup-lv2-theme-bg-2-hover: hsl(0, 0%, 28%);
+    --popup-theme-text-1: var(--popup-white-opacity-1);
+    --popup-theme-text-2: var(--popup-white-opacity-3);
+    --popup-theme-text-3: var(--popup-white-opacity-4);
+    --popup-theme-primary-text: var(--popup-primary-300);
+    --popup-theme-primary-text-hover: var(--popup-primary-200);
+    --popup-theme-primary-text-2: var(--popup-primary-500);
+    --popup-theme-primary-text-2-hover: var(--popup-primary-400);
+    --popup-theme-secondary-text: var(--popup-secondary-300);
+    --popup-theme-secondary-text-hover: var(--popup-secondary-200);
+    --popup-theme-secondary-text-2: var(--popup-secondary-500);
+    --popup-theme-secondary-text-2-hover: var(--popup-secondary-400);
+    --popup-theme-border-1: hsla(0, 0%, 100%, .08);
+    --popup-theme-border-2: hsla(0, 0%, 100%, .16);
+    --popup-theme-border-3: hsla(0, 0%, 100%, .24);
+    --c-av-odds-text: #ffffff;
+    --c-av-odds-minus-text: #eb6307;
+    --c-av-favor-color-1: #eb6307
+}
+
+.c-tutorial__back {
+    --c-av-header-height: 0
+}
+
+.c-tutorial__back .c-header,
+.c-tutorial__back .c-odds-page__filters,
+.c-tutorial__back .c-side-hot,
+.c-tutorial__back .c-side-multi-view,
+.c-tutorial__back #sport997,
+.c-tutorial__back #sport43 {
+    display: none
+}
+
+.c-tutorial__back .copyright {
+    display: none
+}

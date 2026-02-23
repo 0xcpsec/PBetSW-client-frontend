@@ -1,0 +1,1084 @@
+.c-tournament-widget {
+    --c-tournament-widget-overlay-bg: var(--c-tw-primary-900);
+    --c-tournament-widget-app-bg: var(--c-tw-primary-800);
+    --c-tournament-widget-clear-bg: var(--c-av-black-opacity-4);
+    --c-tournament-widget-clear-border: var(--c-av-white-opacity-2);
+    --c-tournament-widget-clear-icon-color: var(--c-av-white);
+    --c-tournament-widget-header-bg: var(--c-tournament-widget-app-bg);
+    --c-tournament-widget-option-text: var(--c-tw-white);
+    --c-tournament-widget-option-bg: var(--c-tournament-widget-app-bg)
+}
+
+[data-tournament] .c-tournament-widget {
+    --c-av-warning-color-1: hsl(45, 65%, 30%);
+    --c-av-warning-color-2: hsl(45, 95%, 58%);
+    --c-av-success-color-1: hsl(125, 40%, 30%);
+    --c-av-success-color-2: hsl(125, 70%, 46%);
+    --c-av-danger-color-1: hsl(0, 35%, 25%);
+    --c-av-danger-color-2: hsl(0, 100%, 74%);
+    --c-av-waiting-color-1: hsl(6, 76%, 10%);
+    --c-av-waiting-color-2: var(--c-tw-in-play-400);
+    --c-av-waiting-color-3: hsl(6, 75%, 50%);
+    --c-av-accent-color-1: var(--c-tw-in-play-300);
+    --scroll-bar-track: var(--c-av-black-opacity-5);
+    --c-av-custom-scroll-thumb: var(--c-tw-white-opacity-5);
+    --c-av-custom-scroll-thumb-hover: var(--c-tw-white-opacity-4);
+    --c-av-custom-scroll-thumb-border: transparent;
+    --c-av-odds-text: var(--c-tw-white);
+    --c-av-odds-change-bg: var(--c-tw-in-play-700);
+    --c-av-odds-minus-text: hsl(0, 100%, 50%);
+    --c-av-text-js-bet-name: var(--c-tw-secondary-500);
+    --c-av-text-js-bet-name-em: var(--c-av-betcart-text)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart {
+    --c-av-betcart-bg: var(--c-tw-primary-800);
+    --c-av-betcart-text: var(--c-tw-white);
+    --c-av-side-nav-box-shadow: none;
+    --c-av-betcart-tabs-img: linear-gradient(180deg, var(--c-tw-primary-600) 0%, var(--c-tw-primary-800) 100%);
+    --c-av-betcart-tab-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-betcart-tab-text: var(--c-tw-white-opacity-3);
+    --c-av-betcart-tab-selected-text: var(--c-tw-white);
+    --c-av-betcart-tab-unselected-hover-text: var(--c-tw-white);
+    --c-av-betcart-tab-bottom-line: var(--c-tw-white);
+    --c-av-betcart-tab-bottom-line-img: none;
+    --c-av-betcart-tab-border: var(--c-tw-white-opacity-5);
+    --c-av-betcart-tab-bottom-line-img: none;
+    --c-av-betcart-betslip-tab-text: var(--c-tw-white-opacity-3);
+    --c-av-betcart-betslip-tab-bg: var(--c-tw-primary-900-opacity-3);
+    --c-av-betcart-betslip-tab-selected-text: var(--c-tw-white);
+    --c-av-betcart-betslip-tab-selected-bg: var(--c-tw-primary-500);
+    --c-av-betcart-betslip-tab-unselected-hover-text: var(--c-tw-white);
+    --c-av-betcart-betslip-betting-bg: transparent;
+    --c-av-betcart-betlist-betting-bg: transparent
+}
+
+[data-tournament] .c-tournament-widget .c-betslip {
+    --c-av-betslip-tabs-border: transparent
+}
+
+[data-tournament] .c-tournament-widget .c-betlist {
+    --c-av-betlist-tabs-border: transparent
+}
+
+[data-tournament] .c-tournament-widget [class*="c-betting"] {
+    --c-av-betting-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-betting-score-map-text-value: var(--c-tw-white-opacity-2);
+    --c-av-betting-score-map-text-value: var(--c-tw-secondary-500);
+    --c-av-betting-quick-stake-btn-bg: var(--c-tw-primary-100-opacity-4);
+    --c-av-betting-quick-stake-btn-img: none;
+    --c-av-betting-quick-stake-btn-hover-filter: brightness(110%);
+    --c-av-btn-hover-filter: brightness(110%);
+    --c-av-betting-combo-list-header-text: var(--c-tw-white);
+    --c-av-betting-combo-list-border: var(--c-av-betting-border);
+    --c-av-betting-combo-list-item-open-bg: var(--c-tw-primary-100-opacity-5);
+    --c-av-betting-combo-list-item-text: var(--c-tw-white-opacity-1);
+    --c-av-betting-combo-list-item-icon: var(--c-tw-white-opacity-3);
+    --c-av-betting-combo-list-item-has-stake-btn-text-stake: var(--c-tw-primary-300);
+    --c-av-betting-combo-list-item-btn-icon: var(--c-tw-white-opacity-3);
+    --c-av-betting-total-stake-text-value: var(--c-tw-secondary-500);
+    --c-av-betting-total-stake-border: var(--c-av-betting-border);
+    --c-av-betting-combo-list-item-quick-stake-btn-text: var(--c-tw-white);
+    --c-av-betting-combo-list-item-quick-stake-btn-bg: var(--c-tw-primary-100-opacity-4);
+    --c-av-betting-stake-info-label-text: var(--c-tw-white-opacity-2);
+    --c-av-betting-combo-list-item-open-text-group: var(--c-tw-primary-100);
+    --c-av-betting-combo-list-item-has-stake-btn-text: var(--c-tw-white);
+    --c-av-betting-setting-btn-bg: var(--c-tw-primary-800);
+    --c-av-betting-setting-border: var(--c-av-betting-border);
+    --c-av-betting-setting-btn-icon: var(--c-tw-white-opacity-3);
+    --c-av-betting-setting-btn-text: var(--c-tw-white);
+    --c-av-betting-setting-main-bg: var(--c-tw-primary-800);
+    --c-av-betting-setting-header-text: var(--c-tw-white);
+    --c-av-betting-setting-header-bg: var(--c-tw-primary-800);
+    --c-av-betting-setting-header-img: linear-gradient(180deg, var(--c-tw-primary-600) 0%, var(--c-tw-primary-800) 100%);
+    --c-av-betting-setting-container-bg: var(--c-tw-primary-800);
+    --c-av-betting-setting-container-text: var(--c-tw-white-opacity-1);
+    --c-av-betting-setting-header-border: var(--c-av-betting-border);
+    --c-av-betting-submit-border: var(--c-av-betting-border);
+    --c-av-betting-setting-mobileview-border: var(--c-av-betting-border);
+    --c-av-betting-msg-text: var(--c-tw-white);
+    --c-av-betting-msg-danger-text: var(--c-tw-white);
+    --c-av-betting-choice-ticket-number-text: var(--c-tw-white);
+    --c-av-betting-choice-ticket-number-bg: var(--c-tw-secondary-500);
+    --c-av-betting-choice-ticket-number-border: var(--c-tw-secondary-500);
+    --c-av-betting-msg-badge-rounded-text: var(--c-tw-white);
+    --c-av-betting-msg-badge-rounded-bg: var(--c-tw-secondary-500);
+    --c-av-betting-list-dropdown-border: var(--c-av-betting-border);
+    --c-av-betting-score-map-btn-bg: var(--c-tw-primary-500);
+    --c-av-betting-score-map-btn-hover-bg: var(--c-tw-primary-400)
+}
+
+[data-tournament] .c-tournament-widget .c-ticket {
+    --c-av-ticket-bg: var(--c-tw-primary-800);
+    --c-av-ticket-text-bettype: var(--c-tw-white);
+    --c-av-ticket-header-btn-icon: var(--c-tw-white-opacity-3);
+    --c-av-ticket-header-btn-hover-icon: var(--c-tw-white-opacity-2);
+    --c-av-ticket-main-border: var(--c-tw-primary-300);
+    --c-av-ticket-choice-text: var(--c-tw-primary-300);
+    --c-av-ticket-odds-text-goal: var(--c-tw-white);
+    --c-av-ticket-odds-text-score: var(--c-tw-white-opacity-2);
+    --c-av-ticket-text-oddstype: var(--c-tw-white-opacity-3);
+    --c-av-ticket-info-text: var(--c-tw-white-opacity-3);
+    --c-av-ticket-multi-choice-text: var(--c-tw-white-opacity-1);
+    --c-av-ticket-multi-choice-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-ticket-multi-choice-icon: var(--c-tw-white-opacity-3);
+    --c-av-ticket-multi-choice-hover: var(--c-tw-primary-300);
+    --c-av-ticket-info-text: var(--c-tw-white-opacity-3);
+    --c-av-ticket-team-score-highlight-text: var(--c-tw-secondary-500);
+    --c-av-ticket-detail-text: var(--c-tw-white-opacity-3);
+    --c-av-ticket-detail-text-stake: var(--c-tw-white);
+    --c-av-ticket-smp-dot-bg: var(--c-tw-primary-800);
+    --c-av-ticket-smp-dot-border: var(--c-tw-primary-300);
+    --c-av-ticket-smp-border: var(--c-tw-primary-300);
+    --c-av-ticket-parlay-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-ticket-detail-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-ticket-parlay-subticket-bg: var(--c-tw-primary-700);
+    --c-av-ticket-waiting-bg: var(--c-tw-primary-800);
+    --c-av-ticket-match-info-text: var(--c-tw-white-opacity-1);
+    --c-av-ticket-waiting-main-border: var(--c-tw-in-play-400);
+    --c-av-ticket-waiting-choice-text: var(--c-tw-in-play-400);
+    --c-av-ticket-waiting-status-tag-text: var(--c-tw-in-play-400);
+    --c-av-ticket-waiting-text-bettype: var(--c-tw-white-opacity-1);
+    --c-av-ticket-in-play-text-bettype: var(--c-tw-white-opacity-1);
+    --c-av-ticket-in-play-main-border: var(--c-tw-primary-300);
+    --c-av-ticket-void-status-tag-text: var(--c-tw-white-opacity-3);
+    --c-av-ticket-void-tag-parlay-boost-text: var(--c-tw-white-opacity-3);
+    --c-av-ticket-void-tag-parlay-boost-bg: HSL(220, 40%, 20%);
+    --c-av-sub-ticket-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-sub-ticket-bg: var(--c-tw-primary-700)
+}
+
+[data-tournament] .c-tournament-widget .c-textfield {
+    --c-av-textfield-bg: var(--c-tw-primary-900);
+    --c-av-textfield-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-textfield-focus-border: var(--c-tw-primary-500);
+    --c-av-textfield-btn-clear-icon: var(--c-tw-white-opacity-3);
+    --c-av-textfield-input-text: var(--c-tw-white);
+    --c-av-textfield-currency-text: var(--c-tw-white-opacity-3);
+    --c-av-textfield-stake-btn-clear-icon: var(--c-tw-white-opacity-3);
+    --c-av-textfield-stake-input-text: var(--c-tw-white);
+    --c-av-textfield-stake-focus-border: var(--c-tw-primary-300);
+    --c-av-textfield-input-placeholder: var(--c-tw-white-opacity-3)
+}
+
+[data-tournament] .c-tournament-widget .c-tag {
+    --c-av-tag-live-bg: var(--c-tw-in-play-500);
+    --c-av-tag-live-text: var(--c-tw-white);
+    --c-av-tag-parlay-boost-text: hsl(245, 100%, 58%);
+    --c-av-tag-parlay-boost-bg: hsl(54, 100%, 54%)
+}
+
+[data-tournament] .c-tournament-widget .c-badge {
+    --c-av-badge-text: var(--c-tw-white);
+    --c-av-badge-bg: var(--c-tw-in-play-500)
+}
+
+[data-tournament] .c-tournament-widget .c-btn,
+[data-tournament] .c-tournament-widget .c-tooltip {
+    --c-av-btn-bg: var(--c-tw-primary-800);
+    --c-av-btn-border-color: transparent;
+    --c-av-btn-bet-text: var(--c-tw-white);
+    --c-av-btn-bet-bg: var(--c-tw-secondary-500);
+    --c-av-btn-default-text: var(--c-tw-white);
+    --c-av-btn-default-bg: var(--c-tw-primary-100-opacity-5);
+    --c-av-btn-default-border-color: transparent;
+    --c-av-btn-primary-bg: var(--c-tw-primary-500);
+    --c-av-btn-help-text: var(--c-tw-white-opacity-2);
+    --c-av-btn-back-to-event-text: var(--c-tw-primary-300)
+}
+
+[data-tournament] .c-tournament-widget [class*="c-text"] {
+    --c-av-text-bet-count: var(--c-tw-primary-300);
+    --c-av-text-back: var(--c-tw-primary-900);
+    --c-av-text-back-bg: #78acff;
+    --c-av-text-lay: var(--c-tw-primary-900);
+    --c-av-text-lay-bg: #d675c3;
+    --c-av-text-yes: var(--c-tw-primary-900);
+    --c-av-text-yes-bg: #78acff;
+    --c-av-text-no: var(--c-tw-primary-900);
+    --c-av-text-no-bg: #d675c3;
+    --c-av-text-mmr-positive: hsl(210, 100%, 38%);
+    --c-av-text-mmr-negative: hsl(0, 100%, 50%);
+    --c-av-text-favor: var(--c-tw-in-play-300);
+    --c-av-text-csld-tip: var(--c-tw-secondary-500)
+}
+
+[data-tournament] .c-tournament-widget .c-switch {
+    --c-av-switch-bg: var(--c-tw-white-opacity-4);
+    --c-av-switch-dot-bg: var(--c-tw-primary-900);
+    --c-av-switch-on-bg: var(--c-tw-primary-500);
+    --c-av-switch-dot-on-bg: var(--c-tw-white)
+}
+
+[data-tournament] .c-tournament-widget .c-dropdown {
+    --c-av-dropdown-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-dropdown-container-text: var(--c-tw-white);
+    --c-av-dropdown-container-bg: var(--c-tw-primary-700);
+    --c-av-dropdown-container-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-dropdown-menu-item-hover: var(--c-tw-primary-800);
+    --c-av-dropdown-menu-item-hover-text: var(--c-tw-white);
+    --c-av-dropdown-menu-item-selected: var(--c-tw-primary-600)
+}
+
+[data-tournament] .c-tournament-widget .c-tooltip {
+    --c-av-tooltip-bg: HSL(45, 65%, 30%);
+    --c-av-tooltip-text: var(--c-tw-white);
+    --c-av-tooltip-whats-new-bg: HSL(47, 100%, 59%);
+    --c-av-tooltip-whats-new-text: var(--c-tw-black-opacity-1)
+}
+
+[data-tournament] .c-tournament-widget .c-preloader {
+    --c-av-preloader-border: var(--c-tw-primary-300)
+}
+
+[data-tournament] .c-tournament-widget .c-checkbox {
+    --c-av-checkbox-text: var(--c-tw-white-opacity-1);
+    --c-av-checkbox-icon: var(--c-tw-white-opacity-1);
+    --c-av-checkbox-checked-icon: var(--c-tw-primary-300)
+}
+
+[data-tournament] .c-tournament-widget .c-empty {
+    --c-av-empty-img-icon: var(--c-tw-primary-100-opacity-5);
+    --c-av-empty-msg-text: var(--c-tw-white-opacity-3);
+    --c-av-empty-img-lottie-opacity: 1;
+    --c-av-empty-img-lottie-mix-blend-mode: luminosity
+}
+
+[data-tournament] .c-tournament-widget .c-ticket-status-tag {
+    --c-av-ticket-status-tag-text: var(--c-tw-primary-300);
+    --c-av-ticket-status-tag-running-bg: var(--c-tw-primary-300);
+    --c-av-ticket-status-tag-running-text: var(--c-tw-white);
+    --c-av-ticket-status-tag-running-border: var(--c-tw-primary-300);
+    --c-av-ticket-status-tag-waiting-bg: var(--c-tw-in-play-400);
+    --c-av-ticket-status-tag-waiting-text: var(--c-tw-white);
+    --c-av-ticket-status-tag-waiting-border: var(--c-tw-in-play-400);
+    --c-av-ticket-status-tag-void-text: var(--c-tw-white-opacity-2);
+    --c-av-ticket-status-tag-void-bg: var(--c-tw-white-opacity-5);
+    --c-av-ticket-status-tag-void-border: transparent;
+    --c-av-ticket-status-tag-abnormal-bet-text: var(--c-av-ticket-status-tag-void-text);
+    --c-av-ticket-status-tag-abnormal-bet-bg: var(--c-av-ticket-status-tag-void-bg);
+    --c-av-ticket-status-tag-abnormal-bet-border: var(--c-av-ticket-status-tag-void-border);
+    --c-av-ticket-status-tag-reject-text: var(--c-av-ticket-status-tag-void-text);
+    --c-av-ticket-status-tag-reject-bg: var(--c-av-ticket-status-tag-void-bg);
+    --c-av-ticket-status-tag-reject-border: var(--c-av-ticket-status-tag-void-border);
+    --c-av-ticket-status-tag-refund-text: var(--c-av-ticket-status-tag-void-text);
+    --c-av-ticket-status-tag-refund-bg: var(--c-av-ticket-status-tag-void-bg);
+    --c-av-ticket-status-tag-refund-border: var(--c-av-ticket-status-tag-void-border);
+    --c-av-ticket-status-tag-delay-payout-bg: var(--c-av-ticket-status-tag-running-bg);
+    --c-av-ticket-status-tag-delay-payout-text: var(--c-av-ticket-status-tag-running-text);
+    --c-av-ticket-status-tag-delay-payout-border: var(--c-av-ticket-status-tag-running-border)
+}
+
+[data-tournament] .c-tournament-widget [class^="c-cashout"] {
+    --c-av-cashout-bg: var(--c-tw-primary-900);
+    --c-av-cashout-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-cashout-stake-label: var(--c-tw-white-opacity-1);
+    --c-av-cashout-stake-value: var(--c-tw-secondary-500);
+    --c-av-cashout-msg-text: var(--c-tw-white);
+    --c-av-cashout-msg-bg: var(--c-av-warning-color-1);
+    --c-av-cashout-msg-process-text: var(--c-tw-white);
+    --c-av-cashout-msg-process-bg: var(--c-tw-white-opacity-5);
+    --c-av-cashout-msg-warning-icon: var(--c-av-warning-color-2);
+    --c-av-cashout-msg-success-text: var(--c-tw-white);
+    --c-av-cashout-msg-success-bg: var(--c-av-success-color-1);
+    --c-av-cashout-msg-success-icon: var(--c-av-success-color-2);
+    --c-av-cashout-collapse-text: var(--c-tw-white-opacity-1);
+    --c-av-cashout-collapse-border: var(--c-tw-primary-100-opacity-5);
+    --c-av-cashout-collapse-payout-text: var(--c-tw-secondary-500);
+    --c-av-cashout-filter-bg: var(--c-tw-primary-100-opacity-5);
+    --c-av-cashout-filter-text: var(--c-tw-white-opacity-1);
+    --c-av-cashout-filter-border: transparent;
+    --c-av-cashout-filter-selected-bg: HSL(45, 100%, 60%);
+    --c-av-cashout-filter-selected-text: var(--c-tw-primary-900);
+    --c-av-cashout-filter-selected-border: transparent;
+    --c-av-cashout-filter-icon-img: var(--c-tw-primary-300);
+    --c-av-cashout-filter-icon-img-hover: var(--c-tw-primary-200);
+    --c-av-cashout-filter-icon: var(--c-tw-white);
+    --c-av-cashout-filter-selected-checkbox-icon: var(--c-tw-primary-900);
+    --c-av-cashout-filter-selected-checkbox-checked-icon: var(--c-tw-primary-300);
+    --c-av-cashout-collapse-img: transparent;
+    --c-av-cashout-collapse-text: var(--c-tw-white-opacity-1);
+    --c-av-cashout-collapse-border: var(--c-tw-primary-100-opacity-5)
+}
+
+[data-tournament] .c-tournament-widget .c-odds-adjust {
+    --c-av-odds-adjust-before-text: var(--c-tw-white-opacity-3)
+}
+
+[data-tournament] .c-modal {
+    --c-av-modal-overlay-bg: var(--c-tw-primary-900-opacity-4);
+    --c-av-modal-heading-img: var(--c-tw-primary-400);
+    --c-av-modal-heading-text: var(--c-tw-white);
+    --c-av-modal-heading-btn-hover-bg: var(--c-tw-primary-300);
+    --c-av-modal-bg: var(--c-tw-white);
+    --c-av-modal-text: var(--c-tw-primary-900)
+}
+
+[data-tournament] .c-modal .c-checkbox {
+    --c-av-checkbox-text: var(--c-tw-primary-900-opacity-3);
+    --c-av-checkbox-icon: var(--c-tw-primary-900-opacity-3);
+    --c-av-checkbox-checked-icon: var(--c-tw-primary-400)
+}
+
+[data-tournament] .c-modal [class*="c-betting"] {
+    --c-av-betting-result-text-value: var(--c-tw-primary-400);
+    --c-av-betting-msg-lowlight-bg: var(--c-tw-primary-50);
+    --c-av-betting-msg-lowlight-text: var(--c-tw-primary-900-opacity-3)
+}
+
+[data-tournament] .c-modal .c-btn,
+[data-tournament] .c-modal .c-tooltip {
+    --c-av-btn-primary-text: var(--c-tw-white);
+    --c-av-btn-primary-bg: var(--c-tw-primary-400);
+    --c-av-btn-primary-hover-filter: brightness(110%);
+    --c-av-btn-booked-text: var(--c-tw-secondary-500)
+}
+
+[data-tournament] .c-modal .c-ticket-status-tag {
+    --c-av-ticket-status-tag-text: var(--c-tw-primary-300);
+    --c-av-ticket-status-tag-running-bg: var(--c-tw-primary-300);
+    --c-av-ticket-status-tag-running-text: var(--c-tw-white);
+    --c-av-ticket-status-tag-running-border: var(--c-av-ticket-status-tag-running-bg);
+    --c-av-ticket-status-tag-waiting-bg: var(--c-tw-in-play-400);
+    --c-av-ticket-status-tag-waiting-text: var(--c-tw-white);
+    --c-av-ticket-status-tag-waiting-border: var(--c-av-ticket-status-tag-waiting-bg);
+    --c-av-ticket-status-tag-void-text: var(--c-tw-primary-900-opacity-2);
+    --c-av-ticket-status-tag-void-bg: var(--c-tw-primary-900-opacity-5);
+    --c-av-ticket-status-tag-reject-text: var(--c-tw-primary-900-opacity-2);
+    --c-av-ticket-status-tag-reject-bg: var(--c-tw-primary-900-opacity-5);
+    --c-av-ticket-status-tag-closed-text: var(--c-tw-primary-900-opacity-2);
+    --c-av-ticket-status-tag-closed-bg: var(--c-tw-primary-900-opacity-5)
+}
+
+[data-tournament][data-theme^="dark"]:root {
+    --c-av-custom-scroll-bg: var(--c-av-grey-100);
+    --c-av-custom-scroll-thumb: var(--c-av-grey-200);
+    --c-av-custom-scroll-thumb-hover: var(--c-av-grey-300);
+    --c-av-custom-scroll-thumb-shadow: transparent
+}
+
+[data-tournament][data-theme^="dark"] .c-modal {
+    --c-av-modal-article-thead-bg: var(--c-av-grey-100);
+    --c-av-modal-article-table-example-td-title-bg: var(--c-av-grey-100);
+    --c-av-modal-article-border: var(--c-av-black-opacity-5)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget {
+    --c-av-success-color-1: hsl(121, 82%, 6%);
+    --c-av-success-color-2: hsl(121, 100%, 30%);
+    --c-av-waiting-color-1: var(--c-tw-in-play-900);
+    --c-av-waiting-color-2: var(--c-tw-in-play-400);
+    --c-av-waiting-color-3: var(--c-tw-in-play-500)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-btn,
+[data-tournament="club-world-cup"] .c-tournament-widget .c-tooltip {
+    --c-av-btn-default-bg: var(--c-tw-white-opacity-5);
+    --c-av-btn-primary-text: var(--c-tw-black);
+    --c-av-btn-bet-text: var(--c-tw-black)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-dropdown {
+    --c-av-dropdown-container-bg: var(--c-tw-theme-500);
+    --c-av-dropdown-menu-item-hover: var(--c-tw-theme-400)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-switch {
+    --c-av-switch-on-bg: var(--c-tw-secondary-500)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget [class*="c-text"] {
+    --c-av-text-favor: var(--c-tw-primary-500)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-textfield {
+    --c-av-textfield-bg: var(--c-tw-black-opacity-5);
+    --c-av-textfield-border: var(--c-tw-white-opacity-5)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-betcart {
+    --c-av-betcart-bg: var(--c-tw-theme-600);
+    --c-av-betcart-tabs-img: linear-gradient(to bottom, var(--c-tw-theme-1000) 0%, var(--c-tw-theme-600) 100%);
+    --c-av-betcart-betslip-tab-bg: var(--c-tw-theme-1000);
+    --c-av-betcart-betslip-tab-selected-text: var(--c-tw-black)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget [class*="betting"] {
+    --c-av-betting-border: var(--c-tw-white-opacity-5);
+    --c-av-betting-combo-list-item-open-bg: var(--c-tw-primary-100-opacity-6);
+    --c-av-betting-setting-open-border: var(--c-tw-white-opacity-5);
+    --c-av-betting-setting-header-img: linear-gradient(to bottom, var(--c-tw-theme-1000) 0%, var(--c-tw-theme-600) 100%);
+    --c-av-betting-setting-container-bg: var(--c-tw-theme-600)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-ticket {
+    --c-av-ticket-bg: var(--c-tw-theme-600);
+    --c-av-ticket-waiting-bg: var(--c-av-waiting-color-1);
+    --c-av-ticket-choice-text: var(--c-tw-white);
+    --c-av-sub-ticket-bg: var(--c-tw-theme-500)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget .c-ticket-status-tag {
+    --c-av-ticket-status-tag-running-text: var(--c-tw-black)
+}
+
+[data-tournament="club-world-cup"] .c-tournament-widget [class^="c-cashout"] {
+    --c-av-cashout-bg: var(--c-tw-theme-500);
+    --c-av-cashout-filter-selected-checkbox-checked-icon: var(--c-tw-black)
+}
+
+[data-tournament="club-world-cup"] .c-modal {
+    --c-av-modal-text: var(--c-tw-white);
+    --c-av-modal-bg: var(--c-tw-theme-900);
+    --c-av-modal-heading-img: var(--c-tw-black);
+    --c-av-modal-overlay-bg: var(--c-tw-black-opacity-5)
+}
+
+[data-tournament="club-world-cup"] .c-modal .c-btn {
+    --c-av-btn-primary-text: var(--c-tw-black)
+}
+
+[data-tournament="club-world-cup"] .c-modal .c-checkbox {
+    --c-av-checkbox-icon: var(--c-av-modal-text)
+}
+
+[data-tournament="club-world-cup"] .c-modal [class*="c-betting"] {
+    --c-av-betting-msg-lowlight-text: var(--c-tw-white);
+    --c-av-betting-msg-lowlight-bg: var(--c-tw-theme-500)
+}
+
+[data-tournament="club-world-cup"] .c-modal .c-ticket-status-tag {
+    --c-av-ticket-status-tag-running-text: var(--c-tw-black)
+}
+
+[data-tournament] body:has(.c-tournament-widget[data-maximize="true"]) {
+    overflow: hidden
+}
+
+[data-tournament] .c-tournament-widget {
+    --c-tw-betcart-gap: 1rem;
+    --c-tournament-widget-betcart-width: 340px;
+    --c-tournament-widget-option-height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .2s ease;
+    transition-property: opacity;
+    z-index: 12
+}
+
+[data-tournament] .c-tournament-widget[data-open="false"] .c-tournament-widget__main {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none
+}
+
+[data-tournament] .c-tournament-widget[data-open="true"] .c-tournament-widget__main {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    overflow-x: auto
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="false"] .c-tournament-widget__overlay {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.9)
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="false"] .c-btn--maximize .c-icon--collapse {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="true"] .c-tournament-widget__overlay {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1)
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="true"] .c-tournament-widget__main {
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    transition-property: margin
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="true"] .c-tw-app .c-tw-header__btn-betcart {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="true"] .c-btn--maximize .c-icon--expand {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-tournament-widget__header {
+    border-top-right-radius: inherit
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-tournament-widget__option {
+    visibility: visible
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-tw-app {
+    border-bottom-right-radius: inherit
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-betcart {
+    opacity: 0
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="true"] .c-betcart {
+    opacity: 1
+}
+
+[data-tournament] .c-tournament-widget[data-maximize="true"][data-betcart-open="true"] .c-tournament-widget__main {
+    transform: translateX(calc( -1 * var(--c-tournament-widget-betcart-width) / 2)) !important
+}
+
+[data-tournament] .c-tournament-widget__main {
+    display: flex;
+    height: 100vh;
+    box-shadow: var(--c-av-box-multi-shadow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: ease .2s;
+    transition-property: visibility, opacity
+}
+
+[data-tournament] .c-tournament-widget__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--c-tournament-widget-overlay-bg);
+    background-image: url("../Images/TournamentWidget/eurocup2024/tw-bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: ease .2s;
+    transition-property: transform, visibility, opacity;
+    pointer-events: auto
+}
+
+[data-tournament] .c-tournament-widget__app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 340px
+}
+
+[data-tournament] .c-tournament-widget__app .c-tw-app {
+    flex: 1;
+    min-height: 0
+}
+
+[data-tournament] .c-tournament-widget__header {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: var(--c-tournament-widget-option-height);
+    color: var(--c-tournament-widget-header-text);
+    background-color: var(--c-tournament-widget-header-bg);
+    transition: ease .2s
+}
+
+[data-tournament] .c-tournament-widget__container {
+    flex: 1;
+    display: flex;
+    min-height: 0;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    position: relative
+}
+
+[data-tournament] .c-tournament-widget__bets {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: var(--c-tournament-widget-betcart-width);
+    border-bottom-right-radius: inherit;
+    overflow: hidden;
+    transition: ease .2s;
+    transition-property: transform, opacity, visibility, box-shadow
+}
+
+[data-tournament] .c-tournament-widget__option {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .25rem .75rem;
+    height: var(--c-tournament-widget-option-height);
+    color: var(--c-tournament-widget-option-text);
+    background-color: var(--c-tournament-widget-option-bg)
+}
+
+[data-tournament] .c-tournament-widget__option .c-btn {
+    padding: 0;
+    min-height: auto
+}
+
+[data-tournament] .c-tournament-widget__option .c-btn:hover {
+    -webkit-filter: drop-shadow(0 0 1px var(--c-tournament-widget-option-text));
+    filter: drop-shadow(0 0 1px var(--c-tournament-widget-option-text))
+}
+
+[data-tournament] .c-tournament-widget__option .c-btn .c-icon::before {
+    line-height: 1;
+    font-size: 1rem
+}
+
+[data-tournament] .c-tournament-widget .c-tw-app {
+    flex: 1;
+    min-width: 0;
+    background-color: var(--c-tournament-widget-app-bg);
+    border-bottom-left-radius: inherit;
+    position: relative;
+    overflow: hidden;
+    transition: ease .2s;
+    z-index: 1
+}
+
+[data-tournament] .c-tournament-widget .c-betcart {
+    flex: 1;
+    width: auto;
+    min-height: 0;
+    max-height: none;
+    border-radius: 0;
+    border-bottom-right-radius: inherit;
+    box-shadow: none;
+    position: relative;
+    z-index: 1
+}
+
+[data-tournament] .c-tournament-widget .c-betcart[data-collapse="false"] .c-betcart__container {
+    max-height: none
+}
+
+[data-tournament] .c-tournament-widget .c-betcart__header {
+    display: none
+}
+
+[data-tournament] .c-tournament-widget .c-betcart__main {
+    border-radius: inherit;
+    position: relative;
+    overflow: hidden
+}
+
+[data-tournament] .c-tournament-widget .c-betcart__tabs {
+    padding: 0 .5rem
+}
+
+[data-tournament] .c-tournament-widget .c-betcart__tab {
+    min-height: 52px
+}
+
+[data-tournament] .c-tournament-widget .c-betcart__tab[data-selected="true"] .c-btn>.c-text {
+    font-weight: bold
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip__header {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip__tabs {
+    border-width: 0
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .scroll-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .scroll-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .scroll-content>.c-betting-submit {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .c-ticket__header {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .c-ticket__main {
+    margin-left: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .c-ticket__tips {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .c-ticket__info {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betslip .c-ticket__status {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betlist__header {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betlist .c-betting {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betlist .c-betting-group {
+    flex: 1 0 auto
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betlist .c-betting-choice {
+    padding: 0
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betlist .c-ticket .c-team-name .c-is-clickable {
+    cursor: default
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-ticket--single-match-parlay .c-ticket__main,
+[data-tournament] .c-tournament-widget .c-betcart .c-ticket--ending-game .c-ticket__main {
+    margin-right: 1rem
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-ticket--single-match-parlay+.c-betting-stake-group .c-betting-stake,
+[data-tournament] .c-tournament-widget .c-betcart .c-ticket--ending-game+.c-betting-stake-group .c-betting-stake {
+    padding-left: 1rem
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller {
+    flex-direction: column-reverse;
+    -webkit-overflow-scrolling: touch
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-preloader {
+    order: 0
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-bottom-info {
+    order: 1
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-other-info {
+    order: 2
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-accept-odds {
+    order: 3
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-msg {
+    order: 4
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-setting {
+    order: 5
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-submit {
+    order: 6
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-total-stake {
+    order: 7
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-combo-list {
+    order: 8
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>.c-betting-group {
+    order: 9
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-scroller>div:last-child {
+    margin-bottom: auto
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-stake {
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-stake-info {
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-quick-stake {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-quick-stake+.c-tooltip--whats-new {
+    margin-left: var(--c-tw-betcart-gap);
+    margin-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-combo-list__header {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-combo-list__item>.c-btn {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-combo-list__item .c-betting-tips {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-combo-list__item .c-betting-stake {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-total-stake {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-other-info {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-other-info__item-help {
+    display: flex
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-bottom-info {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-accept-odds {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting {
+    margin-left: var(--c-tw-betcart-gap);
+    margin-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting__header {
+    flex: 0 0 auto;
+    display: flex;
+    min-height: 52px;
+    border-bottom-width: 1px
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting .c-betting-submit {
+    margin-top: auto;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting .c-betting-msg {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting__main {
+    display: flex;
+    flex-direction: column;
+    max-height: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: translateY(100%);
+    transition: ease .2s;
+    transition-property: transform;
+    pointer-events: none
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-setting[data-open="true"] .c-betting-setting__main {
+    max-height: none;
+    transform: translateY(0);
+    pointer-events: auto
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-submit {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-betting-msg {
+    margin-left: var(--c-tw-betcart-gap);
+    margin-right: var(--c-tw-betcart-gap);
+    width: calc( 100% - var(--c-tw-betcart-gap)*2)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-btn--score-map {
+    display: none
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-btn--back-to-event {
+    display: none
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout-ticket {
+    padding-left: var(--c-tw-betcart-gap);
+    padding-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout__msg .c-icon {
+    font-size: 1.125rem
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout__msg.c-is-successful .c-icon--successful::before {
+    font-size: inherit
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout-ticket {
+    padding-left: 0;
+    padding-right: 0
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout-bar {
+    margin-left: var(--c-tw-betcart-gap);
+    margin-right: var(--c-tw-betcart-gap)
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-cashout-filter .c-checkbox {
+    color: inherit
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+[data-tournament] .c-tournament-widget .c-betcart .c-empty dotlottie-player {
+    width: 120px;
+    height: 120px
+}
+
+[data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-tournament-widget__bets {
+    width: 0
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget {
+    flex-direction: column
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-tournament-widget__bets {
+    width: auto
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget[data-betcart-open="false"] .c-betcart {
+    transform: translateX(0)
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget[data-betcart-open="true"] .c-betcart {
+    transform: translateX(-100%)
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget[data-betcart-open="true"] .c-tw-app {
+    z-index: unset
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget[data-open="true"] .c-tournament-widget__main {
+    overflow: hidden
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget__main {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: static
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget__app {
+    flex: 0 0 auto;
+    width: 100%
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget__bets {
+    flex: 0 0 auto;
+    width: 100vw;
+    position: fixed;
+    left: 100%;
+    top: var(--c-tw-header-mobile-height);
+    bottom: 0;
+    z-index: 1;
+    overflow: visible
+}
+
+[data-platform="desktop-in-mobile"][data-tournament] .c-tournament-widget .c-tw-btn--betcart[data-active="true"] .c-tw-icon--betcart {
+    transform: translateX(1)
+}
+
+[data-tournament] .c-modal::after {
+    display: flex;
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: var(--c-av-modal-overlay-bg)
+}
+
+[data-tournament] .c-modal--sportsbook-bot {
+    z-index: 13;
+    width: 94vw;
+    min-width: auto
+}
+
+[data-tournament] .c-modal--sportsbook-bot::after {
+    display: none
+}
+
+[data-tournament] .c-team-name.c-is-clickable {
+    cursor: default
+}

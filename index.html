@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBetSW</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; overflow: hidden; }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+    <body>
+    <!-- referrerPolicy so the iframe's requests (including WebSocket) use the same referrer as when loaded directly -->
+    <iframe id="pbet-frame" title="PBetSW" referrerpolicy="no-referrer"></iframe>
+
+    <!-- API base URL: edit config.js to change the fetch domain. -->
+    <script src="config.js"></script>
+    <script>
+        (function () {
+            function getTokenFromUrl() {
+                try {
+                    var searchParams = new URLSearchParams(window.location.search);
+                    var token = searchParams.get("token");
+                    if (token) {
+                        return token;
+                    }
+                    // Fallback: try to read from hash, e.g. #token=...
+                    if (window.location.hash) {
+                        var hash = window.location.hash.substring(1); // remove #
+                        var hashParams = new URLSearchParams(hash);
+                        token = hashParams.get("token");
+                        if (token) {
+                            return token;
+                        }
+                    }
+                } catch (e) {
+                    console.error("Failed to parse token from URL", e);
+                }
+                return null;
+            }
+
+            var iframe = document.getElementById("pbet-frame");
+            if (!iframe) {
+                return;
+            }
+
+            var token = getTokenFromUrl();
+
+            // If no token is provided, just load the iframe as-is.
+            if (!token) {
+                iframe.src = "";
+                return;
+            }
+
+            var apiBase = (typeof window.ApiBackendUrl !== "undefined" && window.ApiBackendUrl)
+                ? window.ApiBackendUrl
+                : "http://localhost:5001";
+            fetch(apiBase + "/Betting/GetBalance?token=" + encodeURIComponent(token), {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    productType: 1,
+                    gameType: 1,
+                    gpid: -2
+                })
+            })
+                .then(function (response) {
+                    if (!response.ok) {
+                        throw new Error("GetBalance request failed with status " + response.status);
+                    }
+                    return response.json();
+                })
+                .then(function (data) {
+                    var accountName = data && (data.AccountName || data.accountName);
+                    var balance = data && (data.Balance || data.balance);
+
+                    // Expose the values for PBetSW.html to read during its own script initialization.
+                    window.PBetInjectedData = {
+                        token: token,
+                        accountName: accountName,
+                        balance: balance
+                    };
+                    // console.log("window.PBetInjectedData: ", window.PBetInjectedData);
+
+                    // Now load the iframe. Inside PBetSW.html we will read window.parent.PBetInjectedData.
+                    iframe.src = "/PBetSW.html";
+                })
+                .catch(function (error) {
+                    console.error("Error while getting balance", error);
+                    // Even if the request fails, still load the iframe so the page is usable.
+                    iframe.src = "/PBetSW.html";
+                });
+        })();
+    </script>
+    </body>
+</html>

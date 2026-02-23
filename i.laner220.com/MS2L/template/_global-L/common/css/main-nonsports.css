@@ -1,0 +1,2488 @@
+:root {
+    --version: 2.27.0
+}
+
+@-webkit-keyframes oddsChangeColor-transparent {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: transparent
+    }
+    100% {
+        background: transparent
+    }
+}
+
+@keyframes oddsChangeColor-transparent {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: transparent
+    }
+    100% {
+        background: transparent
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-quickBet {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fff
+    }
+    100% {
+        background: #fff
+    }
+}
+
+@keyframes oddsChangeColor-quickBet {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fff
+    }
+    100% {
+        background: #fff
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-betSlip {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #ececec
+    }
+    100% {
+        background: #ececec
+    }
+}
+
+@keyframes oddsChangeColor-betSlip {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #ececec
+    }
+    100% {
+        background: #ececec
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-betSlipLive {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fce7d7
+    }
+    100% {
+        background: #fce7d7
+    }
+}
+
+@keyframes oddsChangeColor-betSlipLive {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fce7d7
+    }
+    100% {
+        background: #fce7d7
+    }
+}
+
+@-webkit-keyframes FadeInOut {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        opacity: 0
+    }
+    5% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes FadeInOut {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        opacity: 0
+    }
+    5% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes rotateScale {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.3);
+        transform: rotate(0deg) scale(1.3)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.3);
+        transform: rotate(360deg) scale(1.3)
+    }
+}
+
+@keyframes rotateScale {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.3);
+        transform: rotate(0deg) scale(1.3)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.3);
+        transform: rotate(360deg) scale(1.3)
+    }
+}
+
+@-webkit-keyframes rotateScale-large {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.4);
+        transform: rotate(0deg) scale(1.4)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.4);
+        transform: rotate(360deg) scale(1.4)
+    }
+}
+
+@keyframes rotateScale-large {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.4);
+        transform: rotate(0deg) scale(1.4)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.4);
+        transform: rotate(360deg) scale(1.4)
+    }
+}
+
+@-webkit-keyframes loading-a {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        opacity: .2
+    }
+}
+
+@keyframes loading-a {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        opacity: .2
+    }
+}
+
+@-moz-document url-prefix() {}
+
+@-moz-document url-prefix() {}
+
+:root {
+    --version: 2.27.0
+}
+
+@-webkit-keyframes oddsChangeColor-transparent {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: transparent
+    }
+    100% {
+        background: transparent
+    }
+}
+
+@keyframes oddsChangeColor-transparent {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: transparent
+    }
+    100% {
+        background: transparent
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-quickBet {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fff
+    }
+    100% {
+        background: #fff
+    }
+}
+
+@keyframes oddsChangeColor-quickBet {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fff
+    }
+    100% {
+        background: #fff
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-betSlip {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #ececec
+    }
+    100% {
+        background: #ececec
+    }
+}
+
+@keyframes oddsChangeColor-betSlip {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #ececec
+    }
+    100% {
+        background: #ececec
+    }
+}
+
+@-webkit-keyframes oddsChangeColor-betSlipLive {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fce7d7
+    }
+    100% {
+        background: #fce7d7
+    }
+}
+
+@keyframes oddsChangeColor-betSlipLive {
+    0% {
+        background: #ffaf96
+    }
+    70% {
+        background: #ffaf96
+    }
+    71% {
+        background: #fce7d7
+    }
+    100% {
+        background: #fce7d7
+    }
+}
+
+@-webkit-keyframes FadeInOut {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        opacity: 0
+    }
+    5% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes FadeInOut {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        opacity: 0
+    }
+    5% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes rotateScale {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.3);
+        transform: rotate(0deg) scale(1.3)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.3);
+        transform: rotate(360deg) scale(1.3)
+    }
+}
+
+@keyframes rotateScale {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.3);
+        transform: rotate(0deg) scale(1.3)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.3);
+        transform: rotate(360deg) scale(1.3)
+    }
+}
+
+@-webkit-keyframes rotateScale-large {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.4);
+        transform: rotate(0deg) scale(1.4)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.4);
+        transform: rotate(360deg) scale(1.4)
+    }
+}
+
+@keyframes rotateScale-large {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1.4);
+        transform: rotate(0deg) scale(1.4)
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1.4);
+        transform: rotate(360deg) scale(1.4)
+    }
+}
+
+@-webkit-keyframes loading-a {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        opacity: .2
+    }
+}
+
+@keyframes loading-a {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        opacity: .2
+    }
+}
+
+@-moz-document url-prefix() {}
+
+@-moz-document url-prefix() {}
+
+.largeBtn.icon-egamer {
+    background-image: linear-gradient(135deg, #e20b1d 0%, #70348f 50%, #254fda 100%)
+}
+
+.largeBtn.icon-egamer::before {
+    color: #fff
+}
+
+.largeBtn.icon-egamer.disable {
+    background-color: rgba(173, 173, 173, 0.8);
+    color: #a3a3a3
+}
+
+.largeBtn.icon-egamer.disable:hover {
+    background-color: rgba(173, 173, 173, 0.8)
+}
+
+.largeBtn--egamer {
+    background-image: linear-gradient(135deg, #e20b1d 0%, #70348f 50%, #254fda 100%)
+}
+
+.largeBtn--egamer:hover {
+    background-image: linear-gradient(135deg, #e20b1d 0%, #70348f 50%, #254fda 100%)
+}
+
+.largeBtn--egamer .icon-egamer::before {
+    color: #fff
+}
+
+.sport43 .betTypeHeader {
+    background-color: #b1b1b1;
+    border-bottom-color: #a3a3a3
+}
+
+.sport43 .betTypeHeader:hover {
+    background-color: #b9b9b9
+}
+
+.sport43 .betTypeHeader:hover .trigger {
+    background: -webkit-gradient(linear, left top, left bottom, from(#d5d5d5), to(#c3c3c3));
+    background: linear-gradient(to bottom, #d5d5d5 0%, #c3c3c3 100%)
+}
+
+.sport43 .betTypeHeader .betTypeName {
+    color: #000
+}
+
+.sport43 .icon-statistic.primary {
+    background-color: #EB6307
+}
+
+.sport43.phase2 .inPlay:hover {
+    background-color: #EB6307 !important
+}
+
+.sport43.phase2 .oddsTitle>div {
+    border-bottom-color: #3a80b5
+}
+
+.sport43.phase2 .oddsTitle .inPlayAccentBg {
+    border-bottom-color: #EB6307
+}
+
+.sport43.phase2 .oddsTitle .inPlayAccentBg:hover {
+    background-color: #EB6307
+}
+
+.sport43.phase2 .betTypeHeader {
+    background-color: #3a80b5;
+    border-bottom-color: #27577b
+}
+
+.sport43.phase2 .betTypeHeader .toggle-accent {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f97f2c), to(#EB6307));
+    background: linear-gradient(to bottom, #f97f2c 0%, #EB6307 100%);
+    border-right-color: #a14405
+}
+
+.sport43.phase2 .betTypeHeader:hover {
+    background-color: #458dc3
+}
+
+.sport43.phase2 .betTypeHeader:hover .toggle-primary {
+    background: -webkit-gradient(linear, left top, left bottom, from(#458dc3), to(#458dc3));
+    background: linear-gradient(to bottom, #458dc3 0%, #458dc3 100%)
+}
+
+.sport43.phase2 .betTypeHeader:hover .toggle-accent {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f98e45), to(#f87014));
+    background: linear-gradient(to bottom, #f98e45 0%, #f87014 100%)
+}
+
+.sport43.phase2 .betTypeHeader .betTypeName {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.sport43.phase2 .betTypeHeader.inPlayAccentBg {
+    border-bottom-color: #b94e06
+}
+
+.sport43.phase2 .betTypeHeader.inPlayAccentBg:hover {
+    background-color: #f87014
+}
+
+.sport43.phase2 .betTypeHeader .odds.subtxt {
+    border-left-color: #27577b !important
+}
+
+.sport43.phase2 .inPlayAccentBg {
+    background-color: #EB6307
+}
+
+.sport43.phase2 .inPlayAccentBg:hover {
+    background-color: #f87014
+}
+
+.sport43.phase2 .inPlayAccentBg.active {
+    background-color: #ff7518
+}
+
+.sport43.phase2 .inPlayAccentBg .odds.subtxt {
+    border-left-color: #a14405 !important
+}
+
+.sport43.phase2 .betTypeTitle .betCol.active {
+    background-color: #ff7518;
+    color: #fff
+}
+
+.sport43.phase2 .moreBetTypeArea .colStyle2 .league {
+    background-color: #c5c5c5
+}
+
+.sport43+.liveStreaming .liveStreaming-panel {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#243956), to(#141920));
+    background-image: linear-gradient(#243956, #141920)
+}
+
+.mainLayout .mainArea .happy5 .caption {
+    padding: 0;
+    border-bottom: 2px solid #3a80b5
+}
+
+.happy5 .oddsTableNav {
+    border-bottom: 0;
+    margin-bottom: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+    flex: auto
+}
+
+.happy5 .oddsTableNav-Item[class*="sport"] {
+    background: #b4cedd;
+    color: #356284;
+    font-weight: bold
+}
+
+.happy5 .oddsTableNav-Item[class*="sport"]:hover {
+    background: #97c3df
+}
+
+.happy5 .oddsTableNav-Item[class*="sport"].active {
+    color: #fff;
+    background: #3a80b5
+}
+
+.happy5 .bgBtn {
+    position: relative
+}
+
+.happy5 .bgBtn::after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #feec6e;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    display: none
+}
+
+.happy5 .bgBtn:hover::after {
+    display: block
+}
+
+.sport164 .countdown {
+    color: #EB6307;
+    font-weight: bold
+}
+
+.happy5-scoreBoard .text-blue {
+    color: #005bff
+}
+
+.happy5-scoreBoard .text-red {
+    color: #f44
+}
+
+.happy5-scoreBoard .text-green {
+    color: #00bc00
+}
+
+.happy5-scoreBoard .text-yellow {
+    color: #eb0
+}
+
+.happy5-scoreBoard__head {
+    text-align: center;
+    color: #fff;
+    background-color: #3a80b5;
+    height: 26px;
+    line-height: 26px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.happy5-scoreBoard__content {
+    position: relative;
+    border-radius: 0 0 3px 3px
+}
+
+.happy5-scoreBoard__content:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.happy5-scoreBoard__cell.latest::after {
+    background-color: #fdeee4
+}
+
+.happy5-result__content,
+.ng-result__content {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px
+}
+
+.happy5-result__row,
+.ng-result__row {
+    border-bottom: 1px solid #dfdfdf
+}
+
+.happy5-result__row.latest,
+.happy5-result__row.is-last,
+.ng-result__row.latest,
+.ng-result__row.is-last {
+    background-color: rgba(214, 40, 54, 0.15)
+}
+
+.happy5-result__no,
+.ng-result__no {
+    color: #323232
+}
+
+.n-icon-soccer5 {
+    background-color: #498700
+}
+
+.n-icon-soccer5:hover {
+    background-color: #3b6d00
+}
+
+[class*="ng-ball"] {
+    color: #000
+}
+
+.listTitle-content [class*="ng-ball"]+[class*="ng-ball"]::before,
+.ngBallArea [class*="ng-ball"]+[class*="ng-ball"]::before,
+.happy5-b .ball [class*="ng-ball"]+[class*="ng-ball"]::before,
+.ng-score__col-previous [class*="ng-ball"]+[class*="ng-ball"]::before {
+    color: #bbb
+}
+
+[class*="ng-flatball"] {
+    color: #fff
+}
+
+.ng-flatball-red {
+    background-color: #D62836
+}
+
+.ng-flatball-blue {
+    background-color: #2F84E6
+}
+
+.ng-flatball-yellow {
+    background-color: #FF9100
+}
+
+.ng-flatball-green {
+    background-color: #8DC813
+}
+
+.ng-flatball-rbmix {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #D62836), color-stop(51%, #2F84E6));
+    background-image: linear-gradient(90deg, #D62836 50%, #2F84E6 51%)
+}
+
+.ng-flatball-brmix {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #2F84E6), color-stop(51%, #D62836));
+    background-image: linear-gradient(90deg, #2F84E6 50%, #D62836 51%)
+}
+
+.numberGame-e .oddsContent .event .result+.result::before {
+    background-color: #888
+}
+
+.numberGame-e .leagueName .countdown {
+    color: #EB6307
+}
+
+.numberGame-e .ngBallArea [class*="ng-ball"]::before {
+    color: #fff
+}
+
+.numberGame-e .ngBallArea--history::before {
+    background-color: #fff
+}
+
+.numberGame-e .ngBallArea__title {
+    color: #fff
+}
+
+.ng-score__container {
+    background-color: #ffffff
+}
+
+.ng-score__row+.ng-score__row {
+    border-color: #dbdbdb
+}
+
+[class*="ng-score__col"] {
+    background-color: #fff
+}
+
+[class*="ng-score__col"]+[class*="ng-score__col"] {
+    border-color: #dbdbdb
+}
+
+.ng-score__col-hotnum {
+    background-color: #ffbcbc
+}
+
+.ng-score__col-hotnum .text-title {
+    color: #d02f2f
+}
+
+.ng-score__col-hotnum .ng-score__item:not(:last-of-type)::after {
+    background-color: #ff8989
+}
+
+.ng-score__col-coldnum {
+    background-color: #c9e2ff
+}
+
+.ng-score__col-coldnum .text-title {
+    color: #3966b1
+}
+
+.ng-score__col-coldnum .ng-score__item:not(:last-of-type)::after {
+    background-color: #96c7ff
+}
+
+.ng-score__col-combo .ng-score__item:not(:last-of-type)::after {
+    background-color: #dbdbdb
+}
+
+.ng-score__col-topinfo {
+    color: #fff;
+    background-color: #3a80b5
+}
+
+.ng-score__col-topinfo .ng-score__item+.ng-score__item::before {
+    background-color: #c9e2ff
+}
+
+.ng-score__title {
+    color: #fff;
+    background-color: #3a80b5
+}
+
+.ng-score__item.is-last {
+    background-color: rgba(214, 40, 54, 0.15)
+}
+
+.ng-score .ng-score__content {
+    background-image: linear-gradient(to bottom, #dbdbdb 1px, transparent 1px), linear-gradient(to left, #dbdbdb 1px, transparent 1px)
+}
+
+.ng-score .left-mask::before {
+    background: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0))
+}
+
+.ng-score .right-mask:after {
+    background: -webkit-gradient(linear, right top, left top, from(#fff), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0))
+}
+
+.ng-streaming {
+    background-color: #144569
+}
+
+.ng-streaming__item {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15)
+}
+
+.ng-streaming__item:hover {
+    background-color: rgba(58, 128, 181, 0.5);
+    border-color: rgba(255, 255, 255, 0.6)
+}
+
+.ng-streaming__item[data-selected="true"] {
+    border-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(58, 128, 181, 0.8)
+}
+
+.ng-text-highlight {
+    color: #fec200
+}
+
+.ng-game {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #323232
+}
+
+.ng-counting__icon path {
+    fill: lime
+}
+
+.ng-counting__text {
+    color: lime;
+    background-color: #144569
+}
+
+.ng-counting::after {
+    background-color: #144569
+}
+
+.ng-counting--end .ng-counting__icon path {
+    fill: #fff
+}
+
+.ng-counting--end .ng-counting__text {
+    color: #fff;
+    background-color: #EB6307
+}
+
+.ng-counting--end::after {
+    background-color: #EB6307
+}
+
+.baseArea.live {
+    background-color: #FADAC3
+}
+
+.baseArea.live .betGroup-a .betArea,
+.baseArea.live .betGroup-b .betArea,
+.baseArea.live .betGroup-c .betArea,
+.baseArea.live .betGroup-d .betArea {
+    background-color: #fce7d7;
+    border-bottom-color: #c3afa0;
+    border-left-color: #c3afa0
+}
+
+.baseArea.live .betGroup-a .colWidth-rest .betArea:hover,
+.baseArea.live .betGroup-b .colWidth-rest .betArea:hover,
+.baseArea.live .betGroup-c .colWidth-rest .betArea:hover,
+.baseArea.live .betGroup-d .colWidth-rest .betArea:hover {
+    background-color: #fce7d7
+}
+
+.baseArea.normal {
+    background-color: #f5f5f5
+}
+
+.baseArea.normal .betGroup-a .betArea,
+.baseArea.normal .betGroup-b .betArea,
+.baseArea.normal .betGroup-c .betArea,
+.baseArea.normal .betGroup-d .betArea {
+    background-color: #fff;
+    border-bottom-color: #c8c8c8;
+    border-left-color: #c8c8c8
+}
+
+.baseArea.normal .betGroup-a .colWidth-rest .betArea:hover,
+.baseArea.normal .betGroup-b .colWidth-rest .betArea:hover,
+.baseArea.normal .betGroup-c .colWidth-rest .betArea:hover,
+.baseArea.normal .betGroup-d .colWidth-rest .betArea:hover {
+    background-color: #fff
+}
+
+.baseArea .betGroup-ball .betArea:hover {
+    background-color: #FFEDA4
+}
+
+.baseArea .betGroup-a .colWidth:hover .betArea,
+.baseArea .betGroup-a .colWidth:hover .relativeArea {
+    background-color: #FFEDA4
+}
+
+.baseArea .betGroup-a .colWidth-rest .colWidth:hover .betArea,
+.baseArea .betGroup-a .colWidth-rest .colWidth:hover .relativeArea {
+    background-color: #FFEDA4
+}
+
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp-a,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown-a {
+    background-color: #ffaf96
+}
+
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp-a:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown-a:hover {
+    background-color: #ffc2b0
+}
+
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp-a:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorUp:hover,
+.baseArea .betGroup-a .colWidth-rest .betArea .oddsBet.indicatorDown-a:hover {
+    background-color: #ffaf96
+}
+
+.baseArea .betGroup-b .colWidth:hover .betArea,
+.baseArea .betGroup-b .colWidth:hover .relativeArea,
+.baseArea .betGroup-c .colWidth:hover .betArea,
+.baseArea .betGroup-c .colWidth:hover .relativeArea,
+.baseArea .betGroup-d .colWidth:hover .betArea,
+.baseArea .betGroup-d .colWidth:hover .relativeArea {
+    background-color: #FFEDA4
+}
+
+.n-lite-ng-mainSection .section-two {
+    background-color: #ececec;
+    border: 1px solid #dbdbdb
+}
+
+.n-lite-ng-mainSection .n-section-title {
+    border-bottom: 1px solid #dbdbdb
+}
+
+.n-lite-ng-mainSection .n-section-title .n-title {
+    color: #000
+}
+
+.n-lite-ng-mainSection .n-section-title .n-list {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.n-lite-ng-mainSection .n-section-title .n-primary {
+    color: #fff;
+    background-color: #3a80b5
+}
+
+.n-lite-ng-mainSection .n-section-title .n-primary:hover {
+    background-color: #589cd1
+}
+
+.n-lite-ng-mainSection .n-section-title .accent {
+    color: #b53f39
+}
+
+.n-lite-ng-mainSection .filterBlock.textGroup .filterRow-larger {
+    border-right-color: #dbdbdb
+}
+
+.n-lite-ng-mainSection .n-section-primary .oddsTitle,
+.n-lite-ng-mainSection .n-section-primary .oddsTableNav-Item.active,
+.n-lite-ng-mainSection .n-section-primary .ng-score__col-topinfo {
+    background-color: #3a80b5
+}
+
+.n-lite-ng-mainSection .n-section-primary .oddsTitle>div+div {
+    border-color: #356284
+}
+
+.n-lite-ng-mainSection .n-section-primary .n-toggle {
+    background: #3a80b5;
+    border-right-color: #356284;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.n-lite-ng-mainSection .n-section-accent .oddsTitle,
+.n-lite-ng-mainSection .n-section-accent .oddsTableNav-Item.active,
+.n-lite-ng-mainSection .n-section-accent .ng-score__col-topinfo {
+    background-color: #EB6307
+}
+
+.n-lite-ng-mainSection .n-section-accent .oddsTitle {
+    border-color: #EB6307
+}
+
+.n-lite-ng-mainSection .n-section-accent .oddsTitle>div+div {
+    border-color: #a00008
+}
+
+.n-lite-ng-mainSection .n-section-accent .n-toggle {
+    background: #EB6307;
+    border-right-color: #a00008;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.n-lite-ng-mainSection .n-section-primary-lighten .oddsTitle,
+.n-lite-ng-mainSection .n-section-primary-lighten .n-toggle,
+.n-lite-ng-mainSection .n-section-primary-lighten .oddsTableNav-Item.active,
+.n-lite-ng-mainSection .n-section-primary-lighten .ng-score__col-topinfo {
+    background-color: #2556B3
+}
+
+.n-lite-ng-mainSection .n-section-primary-lighten .oddsTitle {
+    background-color: #2556B3;
+    border-color: #2556B3
+}
+
+.n-lite-ng-mainSection .n-section-primary-lighten .oddsTitle>div+div {
+    border-color: #3d4149
+}
+
+.n-lite-ng-mainSection .n-section-primary-lighten .n-toggle {
+    border-right-color: #3d4149;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.n-lite-ng-mainSection .ng-score .scroll-panel {
+    border: 2px solid #dbdbdb
+}
+
+.n-lite-ng-mainSection .ng-score__row [class*="ng-ball"].icon-arrowDouble-right::before {
+    color: #bbb
+}
+
+.mainArea--pingoal-single-match .liveStreaming-panel {
+    background-color: #000
+}
+
+.mainArea--pingoal-single-match .match-bar {
+    background-color: #6349a8
+}
+
+.mainArea--pingoal-single-match .match-bar[data-more="true"]::after {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(99, 73, 168, 0)), to(#6349a8));
+    background-image: linear-gradient(to right, rgba(99, 73, 168, 0) 0%, #6349a8 100%)
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_panel {
+    background-color: #121212;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_panel:hover:not([data-selected="true"])::before {
+    border: 1.5px solid #bcaaff
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_panel:hover:not([data-selected="true"]) .match-bar_content-mask {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_panel[data-selected="true"]::before {
+    border: 1.5px solid #fff
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_content-mask {
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.mainArea--pingoal-single-match .match-bar .match-bar_team .text-name {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8)
+}
+
+.c-ng-detail {
+    --c-ng-detail-bg: var(--c-av-lv1-theme-bg-2);
+    --c-ng-detail-bg-happy5: var(--c-av-match-live-bg)
+}
+
+.c-ng-score {
+    --c-ng-score-tab-active-bg: var(--c-av-primary-color);
+    --c-ng-score-title: var(--c-av-primary-900);
+    --c-ng-score-tabs-border: var(--c-av-primary-color);
+    --c-ng-score-tab-text: var(--c-av-white);
+    --c-ng-score-tab-bg: var(--c-av-grey-500);
+    --c-ng-score-tab-hover-bg: var(--c-av-grey-400);
+    --c-ng-score-container-bg: var(--c-av-lv1-theme-bg-2);
+    --c-ng-score-container-border: #DBDBDB;
+    --c-ng-score-col-bg: var(--c-av-lv1-theme-bg-2);
+    --c-ng-score-highlight: HSL(calc(var(--c-av-primary-h) + 136), 68%, 93%);
+    --c-ng-score-mask: var(--c-av-lv1-theme-bg-2);
+    --n-av-ng-score-hotnum-bg: hsl(0, 100%, 87%);
+    --n-av-ng-score-hotnum-text: hsl(0, 63%, 50%);
+    --n-av-ng-score-coldnum-bg: hsl(212, 100%, 89%);
+    --n-av-ng-score-coldnum-text: hsl(218, 51%, 46%);
+    --n-av-ng-score-border: var(--c-av-theme-border-2)
+}
+
+.c-ng-score__col-previous {
+    --n-av-ng-score--ball-arrow: var(--c-av-grey-300);
+    --n-av-ng-score--ball-shiny: hsl(0, 100%, 87%)
+}
+
+[class*="c-ng-flatball"] {
+    --ng-flatball-text: var(--c-av-white);
+    --ng-flatball-red: #d62836;
+    --ng-flatball-blue: #2f84e6;
+    --ng-flatball-yellow: #ff9100;
+    --ng-flatball-green: #8dc813
+}
+
+.c-ng-result {
+    --c-ng-result-title: var(--c-av-primary-900);
+    --c-ng-result-highlight: HSL(calc(var(--c-av-primary-h) + 136), 68%, 93%);
+    --c-ng-result-last-text: var(--c-av-theme-text-1);
+    --c-ng-result-text: var(--c-av-theme-text-2);
+    --c-ng-result-border: var(--c-av-theme-border-1);
+    --c-ng-result-scroller-bg: var(--c-av-lv1-theme-bg-1)
+}
+
+.c-ng-wheel {
+    --c-ng-wheel-hover-bg: HSLA(calc(var(--c-av-secondary-h) + 18), 100%, 82%, 0.5);
+    --n-av-ng-wheel-bg: var(--c-av-match-live-bg);
+    --n-av-ng-wheel-border: var(--c-av-theme-border-2);
+    --n-av-ng-wheel-bg: var(--c-av-match-live-bg);
+    --n-av-ng-wheel-even-bg: var(--c-av-match-live-bg);
+    --c-ng-wheel-accent-text: var(--c-ng-wheel-title-text);
+    --c-ng-wheel-odds-button-bg: var(--c-av-odds-bg);
+    --c-ng-wheel-odds-button-hover-bg: var(--c-av-odds-hover-bg)
+}
+
+.c-ng-counting {
+    --c-ng-count-bg: HSL(calc(var(--c-av-primary-h) - 2), 49%, 27%);
+    --c-ng-count-text: #00FF00;
+    --c-ng-count-pressing-bg: #b53f39;
+    --c-ng-count-pressing-text: var(--c-av-white)
+}
+
+.n-label-accent {
+    --n-label-accent-bg: #b53f39;
+    --n-label-accent-text: var(--c-av-white)
+}
+
+.n-odds-table--live {
+    --n-live-page-detail-bg: var(--c-av-match-live-bg);
+    --n-live-page-bettype-col-text: var(--c-av-primary-900);
+    --n-live-page-match-event-result-text: var(--c-av-theme-text-2);
+    --n-live-page-ng-total-text: var(--c-av-theme-text-2);
+    --n-live-page-wheel-border: var(--c-av-theme-border-1);
+    --n-live-page-col-border: var(--c-av-theme-border-1)
+}
+
+.n-icon-soccer5 {
+    --n-icon-soccer5-bg: HSL(88, 100%, 27%);
+    --n-icon-soccer5-hover-bg: HSL(88, 100%, 22%);
+    --n-icon-soccer5-text: var(--c-av-white)
+}
+
+.n-match-previous {
+    --n-match-previous-shiny: hsla(4, 90%, 30%, 0.4)
+}
+
+.n-container--pingoal-single-page {
+    --n-team-name: var(--c-av-theme-text-1)
+}
+
+.n-match-bar {
+    --n-match-bar-bg: hsl(256, 40%, 47%);
+    --n-match-bar-panel-default-bg: hsl(0, 0%, 7%);
+    --n-match-bar-panel-shadow: var(--c-av-black-opacity-3);
+    --n-match-bar-panel-hover-border: hsl(253, 100%, 83%);
+    --n-match-bar-panel-selected-border: var(--c-av-white);
+    --n-match-bar-panel-mask: var(--c-av-black-opacity-4);
+    --n-match-bar-panel-hover-mask: var(--c-av-black-opacity-3);
+    --n-match-bar-panel-text: var(--c-av-white);
+    --n-match-bar-panel-text-shadow: var(--c-av-black-opacity-1)
+}
+
+.c-odds-table--sport161 {
+    --c-av-match-border: var(--c-av-theme-border-1);
+    --c-av-match-option-bg: var(--c-av-match-live-bg);
+    --c-av-match-option-button-in-play-text: var(--c-av-in-play-color-2);
+    --c-av-match-option-button-in-play-bg: var(--c-av-lv1-theme-bg-1);
+    --c-av-match-option-button-in-play-hover-text: var(--c-av-lv1-theme-bg-1);
+    --c-av-match-option-button-in-play-hover-bg: var(--c-av-in-play-color-2);
+    --c-av-match-option-button-bg: var(--c-av-lv1-theme-bg-1);
+    --c-av-match-option-button-text: var(--c-av-theme-primary-text);
+    --c-av-match-option-button-hover-text: var(--c-av-lv1-theme-bg-1);
+    --c-av-match-option-button-hover-bg: var(--c-av-theme-primary-text)
+}
+
+.c-odds-table__title {
+    --n-av-odds-title-bg: var(--c-av-primary-500);
+    --n-av-odds-title-accent-bg: hsl(3, 52%, 47%);
+    --n-av-odds-title-bettype-col-text: var(--c-av-white);
+    --n-av-odds-title-accent-bettype-col-text: var(--c-av-white)
+}
+
+.c-bettype-col {
+    --n-av-bettype-col-border: var(--c-av-theme-border-1);
+    --n-av-odds-title-bettype-col-border: var(--c-av-theme-border-1);
+    --n-av-bettype-col-accent-border: var(--c-av-theme-border-2)
+}
+
+.n-ng-odds-page__header {
+    --n-av-ng-odds-tab-bg: HSL( calc(var(--c-av-primary-h) - 6), 8%, 85%);
+    --n-av-ng-odds-tab-active-bg: var(--c-av-primary-500);
+    --n-av-ng-odds-tab-text: HSL( calc(var(--c-av-primary-h) - 2), 20%, 48%);
+    --n-av-ng-odds-tab-active-text: var(--c-av-white)
+}
+
+.n-streaming {
+    --n-av-ng-heading-bg: var(--c-av-primary-500);
+    --n-av-ng-heading-icon-color: var(--c-av-white);
+    --n-av-ng-heading-icon-selected-bg: var(--c-av-primary-700);
+    --n-av-ng-dropdown-menu-btn-bg: transparent;
+    --n-av-ng-heading-icon-hover-bg: var(--c-av-primary-400);
+    --n-av-ng-heading-icon-border: var(--c-av-white-opacity-4);
+    --n-av-ng-heading-icon-selected-text: var(--c-av-white);
+    --n-av-ng-dropdown-menu-list-bg: var(--c-av-primary-500);
+    --n-av-ng-dropdown-menu-text: var(--c-av-white);
+    --n-av-ng-dropdown-menu-list-border: var(--c-av-white-opacity-4);
+    --n-av-ng-streaming-bg: HSL(var(--c-av-primary-h), 36%, 50%);
+    --n-av-ng-streaming-item-bg: var(--c-av-black-opacity-4);
+    --n-av-ng-streaming-item-active-bg: HSL(var(--c-av-primary-h), 34%, 56%);
+    --n-av-ng-streaming-item-active-border: var(--c-av-white-opacity-4);
+    --n-av-ng-streaming-item-title: var(--c-av-white);
+    --n-av-ng-streaming-item-active-text: var(--c-av-white);
+    --n-av-ng-streaming-souce-btn-bg: HSL(calc(var(--c-av-primary-h) - 4), 50%, 29%);
+    --n-av-ng-streaming-no-bg: HSL(calc(var(--c-av-primary-h) - 3), 47%, 89%);
+    --n-av-ng-streaming-no-text: var(--c-av-black)
+}
+
+.c-numbergame {
+    --n-av-ng-odds-table-bg: var(--c-av-grey-50);
+    --n-av-ng-odds-table-border: var(--c-av-grey-100)
+}
+
+.c-ng-header {
+    --n-av-ng-odds-header-border: var(--c-av-theme-border-2);
+    --n-av-ng-odds-table-header-title: var(--c-av-theme-text-1);
+    --n-av-ng-odds-table-header-title-accent: var(--c-av-black);
+    --n-av-ng-odds-table-header-no: var(--c-av-theme-text-2)
+}
+
+.n-btn--music-tv {
+    --n-av-ng-status-music-btn-bg: #fff;
+    --n-av-ng-status-music-icon-bg: #EB6307;
+    --n-av-ng-status-music-icon-text: #000
+}
+
+.c-ng-info {
+    --n-av-ng-info-title: var(--c-av-theme-text-1);
+    --n-av-ng-odds-info-border: var(--c-av-theme-border-2)
+}
+
+.c-ng-info__text {
+    --c-ng-info-text: var(--c-av-grey-300)
+}
+
+.c-betting-quick-stake {
+    --n-av-quick-bet-text: var(--c-av-black-opacity-1);
+    --n-av-quick-bet-max-text: var(--c-av-white)
+}
+
+.c-happy5 {
+    --n-av-hp-btn-bg: var(--c-av-lv1-theme-bg-1);
+    --n-av-hp-btn-text: var(--c-av-theme-primary-text);
+    --n-av-ng-odds-table-bg: var(--c-av-grey-50);
+    --n-av-ng-odds-table-border: var(--c-av-grey-100);
+    --n-av-ng-total-text: var(--c-av-grey-600);
+    --n-av-hp-odds-table-header-title: var(--c-av-grey-600);
+    --n-av-ng-info-background: var(--c-av-match-live-bg);
+    --n-av-ng-text-highlight: var(--c-av-in-play-color-1);
+    --n-av-ng-tabs-selected-background: var(--c-av-match-live-bg);
+    --n-av-ng-tabs-hover-background: var(--c-av-grey-20);
+    --n-av-match-group-border: var(--c-av-theme-border-2);
+    --n-ng-drawn-ball-arrow: var(--c-av-grey-300)
+}
+
+.section-cation-item {
+    --n-section-active-mask: #fff;
+    --n-section-parlay5-text: #233d67;
+    --n-section-parlay5-gradient1: #f4f9ff;
+    --n-section-parlay5-gradient2: #b3c9e4;
+    --n-section-parlay5-active-gradient1: #70a5f9;
+    --n-section-parlay5-active-gradient2: #fff;
+    --n-section-soccer5-text: #2d6106;
+    --n-section-soccer5-gradient1: #fafaf9;
+    --n-section-soccer5-gradient2: #c0dbb7;
+    --n-section-soccer5-active-gradient1: #6ac44f;
+    --n-section-soccer5-active-gradient2: #fff
+}
+
+.n-lite-ng-mainSection {
+    --n-lite-ng-mainSection-border: var(--c-av-grey-200);
+    --n-lite-ng-mainSection-bg: var(--c-av-grey-50);
+    --n-lite-ng-mainSection-text: var(--c-av-theme-text-1);
+    --n-lite-ng-mainSection-no: var(--c-av-theme-text-2);
+    --n-lite-ng-mainSection-oddsTable-border: var(--c-av-theme-border-2);
+    --n-lite-ng-mainSection-scroller-border: var(--c-av-grey-100);
+    --n-lite-ng-accent-bg: hsl(3, 52%, 47%);
+    --n-lite-ng-accent-border: var(--c-av-theme-border-2);
+    --n-lite-ng-primary-darken-bg: HSL(var(--c-av-primary-h), 66%, 42%);
+    --n-lite-ng-primary-darken-border: var(--c-av-theme-border-1);
+    --n-lite-ng-mainSection-info-text: var(--c-av-theme-text-1)
+}
+
+.n-adboard-esport {
+    --n-av-streaming-heading-bg: var(--c-av-primary-500);
+    --n-av-streaming-heading-text: var(--c-av-white);
+    --n-av-streaming-heading-icon-border: var(--c-av-primary-500);
+    --n-av-streaming-listHeader: var(--c-av-black-opacity-1);
+    --n-av-streaming-listRow: var(--c-av-black-opacity-3);
+    --n-av-streaming-listRow-hover: rgba(80, 80, 80, 0.8)
+}
+
+.c-match {
+    --n-av-bettype-more-in-play-unselect-bg: var(--c-av-in-play-color-1);
+    --n-av-bettype-more-in-play-unselect-text: var(--c-av-white);
+    --n-av-bettype-more-in-play-text: var(--c-av-in-play-color-1)
+}
+
+.c-bettype {
+    --n-av-bettype-border: var(--c-av-theme-border-2);
+    --n-av-bettype-heading: transparent;
+    --n-av-bettype-heading-accent: transparent;
+    --n-av-bettype-heading-text: var(--c-av-primary-900);
+    --n-av-bettype-title-bg: transparent;
+    --n-av-bettype-title-border: var(--c-av-theme-border-2);
+    --n-av-bettype-btn-collapse: var(--c-av-primary-900);
+    --n-av-bettype-color: var(--c-av-grey-500);
+    --n-av-bettype-in-play-text: var(--c-av-in-play-color-1)
+}
+
+.c-widget--mini-casino {
+    --n-av-mine-casino-border: var(--c-av-primary-500);
+    --n-av-mine-casino-exit-hover-bg: var(--c-av-primary-300)
+}
+
+[class*="n-popup-promo"] {
+    --n-av-popup-promo-img-bg: var(--c-av-lv2-theme-bg-1);
+    --n-av-popup-promo-close-btn-color: var(--c-av-white);
+    --n-av-popup-promo-close-btn-bg: var(--c-av-black-opacity-3);
+    --n-av-popup-promo-close-btn-hover-color: var(--c-av-theme-text-2);
+    --n-av-popup-promo-close-btn-hover-bg: var(--c-av-grey-500);
+    --n-av-popup-promo-primary-btn-bg: var(--c-av-theme-primary-text);
+    --n-av-popup-promo-primary-btn-text: var(--c-av-white);
+    --n-av-popup-promo-checkbox-text: var(--c-av-theme-primary-text);
+    --n-av-popup-promo-main-bg: var(--n-av-popup-promo-img-bg);
+    --n-av-popup-promo-main-shadow: 0px 11px 15px 0px var(--c-av-black-opacity-4);
+    --n-av-popup-promo-title-text: var(--c-av-theme-primary-text);
+    --n-av-popup-promo-text: var(--c-av-theme-secondary-text)
+}
+
+[data-darkmode="true"] .c-odds-table--sport161 {
+    --c-av-match-option-button-in-play-bg: rgba(255, 255, 255, 0.1);
+    --c-av-match-option-button-bg: rgba(255, 255, 255, 0.1);
+    --c-av-match-option-button-border: rgba(255, 255, 255, 0.1);
+    --c-av-match-option-button-hover-text: var(--c-av-white-opacity-1);
+    --c-av-match-option-button-hover-bg: var(--c-av-primary-500)
+}
+
+[data-darkmode="true"] .c-numbergame {
+    --n-av-ng-odds-table-bg: var(--c-av-lv1-theme-bg-1);
+    --n-av-ng-odds-table-border: var(--c-av-theme-border-2)
+}
+
+[data-darkmode="true"] .c-odds-table__title {
+    --n-av-odds-title-accent-bg: var(--c-av-secondary-500)
+}
+
+[data-darkmode="true"] .n-ng-odds-page__header {
+    --n-av-ng-odds-tab-bg: var(--c-av-lv1-theme-bg-3);
+    --n-av-ng-odds-tab-active-bg: var(--c-av-lv1-theme-bg-4);
+    --n-av-ng-odds-tab-text: var(--c-av-theme-text-2)
+}
+
+[data-darkmode="true"] .n-streaming {
+    --n-av-ng-heading-bg: var(--c-av-lv1-theme-bg-4);
+    --c-av-streaming-heading-arrow-bg: rgba(0, 0, 0, 0.1);
+    --n-av-ng-streaming-bg: var(--c-av-lv1-theme-bg-3);
+    --n-av-ng-streaming-item-active-bg: var(--c-av-lv1-theme-bg-4);
+    --n-av-ng-heading-icon-hover-bg: var(--c-av-primary-500);
+    --n-av-ng-dropdown-menu-list-bg: var(--c-av-lv1-theme-bg-4);
+    --n-av-ng-streaming-souce-btn-bg: var(--c-av-lv2-theme-bg-2)
+}
+
+[data-darkmode="true"] .n-lite-ng-mainSection {
+    --n-lite-ng-mainSection-border: var(--c-av-theme-border-2);
+    --n-lite-ng-mainSection-bg: var(--c-av-lv1-theme-bg-1);
+    --n-lite-ng-mainSection-oddsTable-border: var(--c-av-theme-border-1);
+    --n-lite-ng-mainSection-scroller-border: var(--c-av-theme-border-1);
+    --n-lite-ng-accent-bg: var(--c-av-secondary-500);
+    --n-lite-ng-primary-darken-bg: var(--c-av-primary-600)
+}
+
+[data-darkmode="true"] .c-ng-wheel {
+    --n-av-ng-wheel-border: var(--c-av-theme-border-1);
+    --c-ng-wheel-hover-bg: var(--c-av-lv1-theme-bg-3)
+}
+
+[data-darkmode="true"] .c-ng-detail {
+    --c-ng-detail-bg-happy5: var(--c-av-grey-900)
+}
+
+[data-darkmode="true"] .c-ng-score {
+    --c-ng-score-tab-bg: rgba(255, 255, 255, 0.1);
+    --c-ng-score-tab-hover-bg: var(--c-av-primary-700);
+    --c-ng-score-container-border: var(--c-av-theme-border-1);
+    --c-ng-score-highlight: rgba(214, 40, 54, 0.15);
+    --c-ng-score-title: var(--c-av-theme-text-2);
+    --n-av-ng-score-hotnum-bg: #731c23;
+    --n-av-ng-score-coldnum-bg: #293a67;
+    --n-av-ng-score-hotnum-text: #ffcdcd;
+    --n-av-ng-score-coldnum-text: #d3dfff
+}
+
+[data-darkmode="true"] .c-ng-score__col-previous {
+    --n-av-ng-score--ball-shiny: var(--c-av-secondary-500)
+}
+
+[data-darkmode="true"] .c-ng-result {
+    --c-ng-result-scroller-bg: var(--c-av-lv1-theme-bg-2);
+    --c-ng-result-highlight: rgba(115, 28, 35, 0.5);
+    --c-ng-result-title: var(--c-av-theme-text-2)
+}
+
+[data-darkmode="true"] .c-happy5 {
+    --n-av-hp-btn-bg: rgba(255, 255, 255, 0.1);
+    --n-av-ng-odds-table-bg: var(--c-av-lv1-theme-bg-3);
+    --n-av-ng-odds-table-border: var(--c-av-theme-border-1);
+    --n-av-hp-odds-table-header-title: var(--c-av-theme-text-2);
+    --n-av-ng-total-text: var(--c-av-theme-text-2);
+    --n-av-ng-tabs-hover-background: var(--c-av-lv1-theme-bg-3-hover);
+    --n-av-match-group-border: var(--c-av-theme-border-1)
+}
+
+[data-darkmode="true"] .section-cation-item {
+    --n-section-parlay5-text: #adcdf3;
+    --n-section-parlay5-gradient1: #4e79ca;
+    --n-section-parlay5-gradient2: #1d315a;
+    --n-section-parlay5-active-gradient1: #1d315a;
+    --n-section-parlay5-active-gradient2: #4363a6;
+    --n-section-soccer5-text: #d9e9ce;
+    --n-section-soccer5-gradient1: #b4d39c;
+    --n-section-soccer5-gradient2: #265800;
+    --n-section-soccer5-active-gradient1: #265800;
+    --n-section-soccer5-active-gradient2: #73ab49
+}
+
+[data-darkmode="true"] .n-match-bar {
+    --n-match-bar-bg: #0b0123
+}
+
+[data-darkmode="true"] .c-bettype {
+    --n-av-bettype-border: var(--c-av-theme-border-1);
+    --n-av-bettype-title-border: var(--c-av-theme-border-1);
+    --n-av-bettype-color: var(--c-av-theme-text-2);
+    --n-av-bettype-heading-text: var(--c-av-theme-text-1);
+    --n-av-bettype-btn-collapse: var(--c-av-theme-text-1)
+}
+
+[data-darkmode="true"] .n-odds-table--live {
+    --n-live-page-detail-bg: var(--c-av-grey-900);
+    --n-live-page-bettype-col-text: var(--c-av-theme-text-2)
+}
+
+[data-darkmode="true"] .n-icon-soccer5 {
+    --n-icon-soccer5-bg: #265800
+}
+
+[data-darkmode="true"] .n-match-previous {
+    --n-match-previous-shiny: var(--c-av-secondary-500)
+}
+
+.c-ng-detail {
+    background-color: var(--c-ng-detail-bg);
+    border-color: var(--c-ng-detail-border)
+}
+
+.c-ng-detail.c-ng-detail--happy5 {
+    background-color: var(--c-ng-detail-bg-happy5);
+    border-color: var(--c-ng-detail-border-happy5)
+}
+
+.c-ng-score [class*='ng-score__col'] {
+    background-color: var(--c-ng-score-col-bg)
+}
+
+.c-ng-score [class*='ng-score__col']+[class*='ng-score__col'] {
+    border-color: var(--c-ng-score-container-border)
+}
+
+.c-ng-score .c-ng-score__heading {
+    color: var(--c-ng-score-title)
+}
+
+.c-ng-score .c-ng-score__tabs {
+    border-color: var(--c-ng-score-tabs-border)
+}
+
+.c-ng-score .c-ng-score__tabs .c-ng-score__tab {
+    background-color: var(--c-ng-score-tab-bg);
+    color: var(--c-ng-score-tab-text)
+}
+
+.c-ng-score .c-ng-score__tabs .c-ng-score__tab:hover {
+    background-color: var(--c-ng-score-tab-hover-bg)
+}
+
+.c-ng-score .c-ng-score__tabs .c-ng-score__tab.c-is-active {
+    background-color: var(--c-ng-score-tab-active-bg)
+}
+
+.c-ng-score .c-ng-score__scroller.left-mask::before {
+    background: -webkit-gradient(linear, left top, right top, from(var(--c-ng-score-mask)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, var(--c-ng-score-mask), rgba(255, 255, 255, 0))
+}
+
+.c-ng-score .c-ng-score__scroller.right-mask::after {
+    background: -webkit-gradient(linear, right top, left top, from(var(--c-ng-score-mask)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to left, var(--c-ng-score-mask), rgba(255, 255, 255, 0))
+}
+
+.c-ng-score .c-ng-score__container {
+    background-color: var(--c-ng-score-container-bg)
+}
+
+.c-ng-score .c-ng-score__title {
+    background-color: var(--c-ng-score-tab-active-bg);
+    color: var(--c-ng-score-tab-text)
+}
+
+.c-ng-score .c-ng-score__table {
+    background-color: var(--c-ng-score-container-bg);
+    background-image: linear-gradient(to bottom, var(--c-ng-score-container-border) 1px, transparent 1px), linear-gradient(to right, var(--c-ng-score-container-border) 1px, transparent 1px)
+}
+
+.c-ng-score .c-ng-score__table .c-ng-score__item.c-is-last {
+    background-color: var(--c-ng-score-highlight)
+}
+
+.c-ng-score .c-ng-score__col-hotnum .c-ng-score__item:not(:last-of-type)::after,
+.c-ng-score .c-ng-score__col-coldnum .c-ng-score__item:not(:last-of-type)::after,
+.c-ng-score .c-ng-score__col-combo .c-ng-score__item:not(:last-of-type)::after {
+    background-color: var(--n-av-ng-score-border)
+}
+
+.c-ng-score .c-ng-score__col-topinfo {
+    background-color: var(--c-ng-score-tab-active-bg);
+    color: var(--c-ng-score-tab-text)
+}
+
+.c-ng-score .c-ng-score__col-hotnum {
+    background-color: var(--n-av-ng-score-hotnum-bg)
+}
+
+.c-ng-score .c-ng-score__col-hotnum .c-text-title {
+    color: var(--n-av-ng-score-hotnum-text)
+}
+
+.c-ng-score .c-ng-score__col-coldnum {
+    background-color: var(--n-av-ng-score-coldnum-bg)
+}
+
+.c-ng-score .c-ng-score__col-coldnum .c-text-title {
+    color: var(--n-av-ng-score-coldnum-text)
+}
+
+.c-ng-score .c-ng-score__col-combo {
+    border-top: var(--c-ng-score-container-border) 1px solid
+}
+
+.c-ng-score__col-previous [class*='ng-ball'] .c-icon::before {
+    color: var(--n-av-ng-score--ball-arrow)
+}
+
+.c-ng-score__col-previous [class*='ng-ball']:last-child::after {
+    border-color: var(--n-av-ng-score--ball-shiny)
+}
+
+[class*="c-ng-flatball"] {
+    color: var(--ng-flatball-text)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-red {
+    background-color: var(--ng-flatball-red)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-blue {
+    background-color: var(--ng-flatball-blue)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-yellow {
+    background-color: var(--ng-flatball-yellow)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-green {
+    background-color: var(--ng-flatball-green)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-rbmix {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--ng-flatball-red)), color-stop(51%, var(--ng-flatball-blue)));
+    background-image: linear-gradient(90deg, var(--ng-flatball-red) 50%, var(--ng-flatball-blue) 51%)
+}
+
+[class*="c-ng-flatball"].c-ng-flatball-brmix {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, var(--ng-flatball-blue)), color-stop(51%, var(--ng-flatball-red)));
+    background-image: linear-gradient(90deg, var(--ng-flatball-blue) 50%, var(--ng-flatball-red) 51%)
+}
+
+.c-ng-result .c-ng-result__heading {
+    color: var(--c-ng-result-title)
+}
+
+.c-ng-result .c-ng-result__scroller {
+    background-color: var(--c-ng-result-scroller-bg)
+}
+
+.c-ng-result .c-ng-result__row {
+    border-color: var(--c-ng-result-border)
+}
+
+.c-ng-result .c-ng-result__row.c-is-last {
+    background-color: var(--c-ng-result-highlight)
+}
+
+.c-ng-result .c-ng-result__row.c-is-last .c-ng-result__no {
+    color: var(--c-ng-result-last-text)
+}
+
+.c-ng-result .c-ng-result__row::after {
+    background-color: var(--c-ng-result-border)
+}
+
+.c-ng-result .c-ng-result__no {
+    color: var(--c-ng-result-text)
+}
+
+.c-ng-wheel {
+    background-color: var(--n-av-ng-wheel-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__item {
+    border-color: var(--n-av-ng-wheel-border)
+}
+
+.c-ng-wheel .c-ng-wheel__item .c-odds-button {
+    background-color: var(--c-ng-wheel-odds-button-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__item .c-odds-button:hover {
+    background-color: var(--c-ng-wheel-odds-button-hover-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__item:hover {
+    background-color: var(--c-ng-wheel-hover-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__item .c-ng-wheel__hover-area {
+    background-color: var(--c-ng-wheel-hover-bg)
+}
+
+.c-ng-wheel .c-ng-ball-group:hover {
+    background-color: var(--c-ng-wheel-hover-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__btn-collapse {
+    border-color: var(--n-ng-wheel-btn-collapse-border);
+    color: var(--c-ng-wheel-btn-collapse-text)
+}
+
+.c-ng-wheel .c-ng-wheel__btn-collapse.btn-accent {
+    border-color: var(--n-ng-wheel-btn-collapse-accent-border)
+}
+
+.c-ng-wheel .c-ng-wheel__title {
+    background-color: var(--c-ng-wheel-title-primary-bg);
+    border-color: var(--c-ng-wheel-title-primary-border)
+}
+
+.c-ng-wheel .c-ng-wheel__title-accent {
+    background-color: var(--n-ng-wheel-title-accent-bg);
+    border-color: var(--n-ng-wheel-title-accent-border)
+}
+
+.c-ng-wheel .c-ng-wheel__title .c-text {
+    color: var(--c-ng-wheel-title-text)
+}
+
+.c-ng-wheel .c-ng-wheel__table {
+    border-color: var(--n-av-ng-wheel-border)
+}
+
+.c-ng-wheel .c-ng-wheel__tbody {
+    background-color: var(--n-av-ng-wheel-bg)
+}
+
+.c-ng-wheel [class*='c-ng-wheel__side-odds'] .c-ng-wheel__item,
+.c-ng-wheel .c-ng-wheel__top-odds .c-ng-wheel__item {
+    background-color: var(--n-av-ng-wheel-even-bg)
+}
+
+.c-ng-wheel [class*='c-ng-wheel__side-odds'] .c-ng-wheel__item:hover,
+.c-ng-wheel .c-ng-wheel__top-odds .c-ng-wheel__item:hover {
+    background-color: var(--c-ng-wheel-hover-bg)
+}
+
+.c-ng-wheel [class*='c-ng-wheel__side-odds'] .c-ng-wheel__item:hover .c-ng-wheel__hover-area,
+.c-ng-wheel .c-ng-wheel__top-odds .c-ng-wheel__item:hover .c-ng-wheel__hover-area {
+    background-color: var(--c-ng-wheel-hover-bg)
+}
+
+.c-ng-wheel .c-ng-wheel__balls {
+    border-bottom: 1px solid var(--n-av-ng-wheel-border)
+}
+
+.c-ng-wheel .c-ng-wheel__balls .c-odds-button {
+    background-color: transparent
+}
+
+.c-ng-counting::after {
+    background-color: var(--c-ng-count-bg)
+}
+
+.c-ng-counting .c-ng-counting__icon path {
+    fill: var(--c-ng-count-text)
+}
+
+.c-ng-counting .c-ng-counting__text {
+    color: var(--c-ng-count-text);
+    background-color: var(--c-ng-count-bg)
+}
+
+.c-ng-counting.c-ng-counting--end::after {
+    background-color: var(--c-ng-count-pressing-bg)
+}
+
+.c-ng-counting.c-ng-counting--end .c-ng-counting__icon path {
+    fill: var(--c-ng-count-pressing-text)
+}
+
+.c-ng-counting.c-ng-counting--end .c-ng-counting__text {
+    color: var(--c-ng-count-pressing-text);
+    background-color: var(--c-ng-count-pressing-bg)
+}
+
+.n-label-accent {
+    color: var(--n-label-accent-text);
+    background-color: var(--n-label-accent-bg)
+}
+
+.n-ng-odds-page__header .c-odds-page__tabs .c-odds-page__tab {
+    background-color: var(--n-av-ng-odds-tab-bg);
+    color: var(--n-av-ng-odds-tab-text)
+}
+
+.n-ng-odds-page__header .c-odds-page__tabs .c-odds-page__tab.c-is-selected,
+.n-ng-odds-page__header .c-odds-page__tabs .c-odds-page__tab:hover {
+    background-color: var(--n-av-ng-odds-tab-active-bg);
+    color: var(--n-av-ng-odds-tab-active-text)
+}
+
+.n-streaming .c-ng-streaming {
+    background-color: var(--n-av-ng-streaming-bg);
+    color: var(--n-av-ng-streaming-item-title)
+}
+
+.n-streaming .c-ng-streaming__item {
+    background-color: var(--n-av-ng-streaming-item-bg)
+}
+
+.n-streaming .c-ng-streaming__item[data-selected='true'] {
+    background-color: var(--n-av-ng-streaming-item-active-bg);
+    border: 1px solid var(--n-av-ng-streaming-item-active-border)
+}
+
+.n-streaming .c-streaming__heading {
+    background-color: var(--n-av-ng-heading-bg)
+}
+
+.n-streaming .c-streaming__heading>a:first-child {
+    border-color: var(--n-av-ng-heading-icon-border)
+}
+
+.n-streaming .c-streaming__heading .c-btn:hover {
+    background: var(--n-av-ng-heading-icon-hover-bg)
+}
+
+.n-streaming .c-streaming__heading .c-btn:hover .c-icon:not(.c-dropdown__btn):not(.c-dropdown__item) {
+    color: var(--n-av-ng-heading-icon-hover-text)
+}
+
+.n-streaming .c-streaming__heading .c-icon:not(.c-dropdown__btn):not(.c-dropdown__item) {
+    color: var(--n-av-ng-heading-icon-color);
+    border-color: var(--n-av-ng-heading-icon-border)
+}
+
+.n-streaming .c-dropdown {
+    color: var(--n-av-ng-dropdown-menu-text)
+}
+
+.n-streaming .c-dropdown:hover {
+    background-color: transparent
+}
+
+.n-streaming .c-dropdown:hover::before {
+    color: var(--n-av-ng-heading-icon-hover-text)
+}
+
+.n-streaming .c-dropdown:hover .c-dropdown__btn {
+    background: var(--n-av-ng-dropdown-menu-hover-bg)
+}
+
+.n-streaming .c-dropdown:hover .c-dropdown__btn .c-icon {
+    color: var(--n-av-ng-heading-icon-hover-text)
+}
+
+.n-streaming .c-dropdown:hover .c-dropdown__btn .c-text {
+    color: var(--n-av-ng-heading-icon-hover-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container {
+    background-color: var(--n-av-ng-dropdown-menu-list-bg)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item {
+    color: var(--n-av-ng-streaming-item-active-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item .c-icon {
+    color: var(--n-av-ng-streaming-item-active-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item:hover {
+    background-color: var(--n-av-ng-heading-icon-selected-bg);
+    color: var(--n-av-ng-heading-icon-selected-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item:hover .c-icon {
+    color: var(--n-av-ng-heading-icon-selected-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item.c-is-selected {
+    background-color: var(--n-av-ng-heading-icon-selected-bg);
+    color: var(--n-av-ng-heading-icon-selected-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__container .c-dropdown__item.c-is-selected .c-icon {
+    color: var(--n-av-ng-heading-icon-selected-text)
+}
+
+.n-streaming .c-dropdown .c-dropdown__btn {
+    border-color: var(--n-av-ng-heading-icon-border);
+    background-image: var(--n-av-ng-dropdown-menu-btn-bg)
+}
+
+.n-streaming .c-dropdown.c-is-open::before {
+    color: var(--n-av-ng-dropdown-menu-open-text)
+}
+
+.n-streaming .c-dropdown.c-is-open .c-dropdown__btn {
+    background: var(--n-av-ng-dropdown-menu-hover-bg)
+}
+
+.n-streaming .c-dropdown.c-is-open .c-dropdown__btn .c-icon {
+    color: var(--n-av-ng-dropdown-menu-open-text)
+}
+
+.n-streaming .c-dropdown.c-is-open .c-dropdown__btn .c-text {
+    color: var(--n-av-ng-dropdown-menu-open-text)
+}
+
+.n-streaming .c-dropdown.c-is-open .c-dropdown__container {
+    border-left: 1px solid var(--n-av-ng-dropdown-menu-list-border);
+    border-bottom: 1px solid var(--n-av-ng-dropdown-menu-list-border);
+    border-right: 1px solid var(--n-av-ng-dropdown-menu-list-border)
+}
+
+.n-streaming .c-ng-streaming {
+    background-color: var(--n-av-ng-streaming-bg);
+    color: var(--n-av-ng-streaming-item-title)
+}
+
+.n-streaming .c-ng-streaming__item {
+    background-color: var(--n-av-ng-streaming-item-bg)
+}
+
+.n-streaming .c-ng-streaming__item[data-selected='true'] {
+    background-color: var(--n-av-ng-streaming-item-active-bg);
+    border: 1px solid var(--n-av-ng-streaming-item-active-border)
+}
+
+.n-streaming .c-ng-text-title {
+    color: var(--n-av-ng-streaming-item-title)
+}
+
+.n-streaming .video__btn--channel .video__dropdown,
+.n-streaming .video__btn--channel .video__dropdown-list {
+    background-color: var(--n-av-ng-streaming-souce-btn-bg)
+}
+
+.n-streaming .c-ng-game {
+    background-color: var(--n-av-ng-streaming-no-bg);
+    color: var(--n-av-ng-streaming-no-text)
+}
+
+.c-numbergame {
+    background-color: var(--n-av-ng-odds-table-bg);
+    border-color: var(--n-av-ng-odds-table-border)
+}
+
+.c-ng-header {
+    color: var(--n-av-ng-odds-table-header-title);
+    border-color: var(--n-av-ng-odds-header-border)
+}
+
+.c-ng-header.c-ng-header-accent {
+    color: var(--n-av-ng-odds-table-header-title-accent)
+}
+
+.c-ng-header .n-ng-title {
+    color: var(--n-av-ng-odds-table-header-title)
+}
+
+.c-ng-header .n-ng-list {
+    color: var(--n-av-ng-odds-table-header-no)
+}
+
+.n-btn--music-tv {
+    background-color: var(--n-av-ng-status-music-btn-bg);
+    border-color: var(--n-av-ng-status-music-btn-bg)
+}
+
+.n-btn--music-tv .c-icon--video {
+    color: var(--n-av-ng-status-music-btn-bg);
+    background-color: var(--n-av-ng-status-music-icon-bg)
+}
+
+.n-btn--music-tv .c-text {
+    color: var(--n-av-ng-status-music-icon-text)
+}
+
+.n-btn--music-tv .c-music-wave__bar {
+    background-color: var(--n-av-ng-status-music-icon-bg)
+}
+
+.c-ng-info .c-ng-info__title {
+    color: var(--n-av-ng-info-title)
+}
+
+.c-ng-info .c-ng-info__item {
+    border-right: 1px solid var(--n-av-ng-odds-info-border)
+}
+
+[class*='ng-ball'] {
+    color: #000
+}
+
+.c-ng-info__text [class*='c-ng-ball']+[class*='c-ng-ball'] .c-icon::before {
+    color: var(--c-ng-info-text)
+}
+
+.c-odds-table--sport161 .c-match__option,
+.c-odds-table--sport164 .c-match__option {
+    background-color: var(--c-av-match-option-bg);
+    border-top: 1px solid var(--c-av-match-border);
+    border-bottom: 1px solid var(--c-av-match-border)
+}
+
+.c-odds-table--sport161 .c-odds-table__title,
+.c-odds-table--sport164 .c-odds-table__title {
+    background-color: var(--n-av-odds-title-bg)
+}
+
+.c-odds-table--sport161 .c-odds-table__title .c-bettype-col,
+.c-odds-table--sport164 .c-odds-table__title .c-bettype-col {
+    border-color: var(--n-av-odds-title-bettype-col-border);
+    color: var(--n-av-odds-title-bettype-col-text)
+}
+
+.c-odds-table--sport161 .c-bettype-col,
+.c-odds-table--sport164 .c-bettype-col {
+    border-color: var(--n-av-bettype-col-border)
+}
+
+.c-odds-table--sport161 .c-betting-quick-stake .c-btn,
+.c-odds-table--sport164 .c-betting-quick-stake .c-btn {
+    color: var(--n-av-quick-bet-text)
+}
+
+.c-odds-table--sport161 .c-betting-quick-stake .c-btn:last-child,
+.c-odds-table--sport164 .c-betting-quick-stake .c-btn:last-child {
+    color: var(--n-av-quick-bet-max-text)
+}
+
+.c-numbergame--turbo .c-odds-table--sport161 .c-odds-table__title {
+    background-color: var(--n-av-odds-title-accent-bg)
+}
+
+.c-numbergame--turbo .c-odds-table--sport161 .c-odds-table__title .c-bettype-col {
+    border-color: var(--n-av-bettype-col-accent-border);
+    color: var(--n-av-odds-title-accent-bettype-col-text)
+}
+
+.c-numbergame--turbo .c-odds-table--sport161 .c-ng-wheel .c-ng-wheel__btn-collapse {
+    color: var(--c-ng-wheel-accent-text)
+}
+
+.c-numbergame--turbo .c-odds-table--sport161 .c-ng-wheel .c-ng-wheel__title .c-text {
+    color: var(--c-ng-wheel-accent-text)
+}
+
+.n-odds-table--live.c-odds-table--sport161 .c-bettype-col,
+.n-odds-table--live.c-odds-table--sport164 .c-bettype-col {
+    border-color: var(--n-live-page-col-border)
+}
+
+.n-odds-table--live .c-bettype-title .c-bettype-col {
+    border-color: var(--c-av-bettype-title-border)
+}
+
+.n-odds-table--live .c-bettypes .c-bettype__col {
+    color: var(--n-live-page-bettype-col-text)
+}
+
+.n-odds-table--live .c-ng-wheel .c-ng-wheel__item {
+    border-color: var(--n-live-page-wheel-border)
+}
+
+.n-odds-table--live.c-odds-table--sport161 .c-match.c-in-play .c-ng-wheel__balls .c-odds-button:hover {
+    background-color: transparent
+}
+
+.n-odds-table--live .c-ng-detail.c-ng-detail--happy5 {
+    background-color: var(--n-live-page-detail-bg)
+}
+
+.n-odds-table--live .n-icon-help {
+    background-color: var(--n-live-page-more-icon-bg);
+    color: var(--n-live-page-more-icon-text)
+}
+
+.n-odds-table--live .c-league__info .c-ng-info__text [class*='c-ng-ball']+[class*='c-ng-ball'] .c-icon::before {
+    color: var(--n-live-page-league-ball-arrow)
+}
+
+.n-odds-table--live .c-match__event .n-match__result {
+    color: var(--n-live-page-match-event-result-text)
+}
+
+.n-odds-table--live .c-match__event .n-match__result:first-child::before {
+    background-color: var(--n-live-page-match-event-result-text)
+}
+
+.n-odds-table--live .c-match__event .n-btn--result {
+    background-color: var(--n-live-page-match-icons-result-bg);
+    color: var(--n-live-page-match-icons-result-text)
+}
+
+.n-odds-table--live .c-match__event .c-team-name {
+    color: var(--n-live-page-match-info-text)
+}
+
+.n-odds-table--live .c-match__more-bets {
+    border-color: var(--n-live-page-match-more-bets-border)
+}
+
+.n-odds-table--live .c-ng-total .c-text,
+.n-odds-table--live .c-ng-total .n-sum {
+    color: var(--n-live-page-ng-total-text)
+}
+
+.n-icon-soccer5 {
+    background-color: var(--n-icon-soccer5-bg);
+    color: var(--n-icon-soccer5-text)
+}
+
+.n-icon-soccer5:hover {
+    background-color: var(--n-icon-soccer5-hover-bg)
+}
+
+.n-match-previous::before {
+    background-color: var(--n-match-previous-text)
+}
+
+.n-match-previous .n-match-previous__title {
+    color: var(--n-match-previous-text)
+}
+
+.n-match-previous .c-ng-info__text [class*='c-ng-ball']+[class*='c-ng-ball']:last-child::after {
+    border-color: var(--n-match-previous-shiny)
+}
+
+.c-happy5 {
+    background-color: var(--n-av-ng-odds-table-bg);
+    border: 1px solid var(--n-av-ng-odds-table-border)
+}
+
+.c-happy5 .c-btn {
+    border-right: 1px solid var(--n-av-ng-odds-header-border)
+}
+
+.c-happy5 .c-ng-header {
+    color: var(--n-av-hp-odds-table-header-title)
+}
+
+.c-happy5 .c-ng-header .c-btn-group .c-btn {
+    background-color: var(--n-av-hp-btn-bg);
+    color: var(--n-av-hp-btn-text)
+}
+
+.c-happy5 .c-ng-info {
+    background-color: var(--n-av-ng-info-background)
+}
+
+.c-happy5 .c-ng-info .c-text-highlight {
+    color: var(--n-av-ng-text-highlight)
+}
+
+.c-happy5 .c-ng-tab {
+    background-color: var(--n-av-ng-odds-table-bg)
+}
+
+.c-happy5 .c-ng-tab:hover {
+    background-color: var(--n-av-ng-tabs-hover-background)
+}
+
+.c-happy5 .c-ng-tab.c-is-selected {
+    cursor: default;
+    border-bottom-color: transparent;
+    background-color: var(--n-av-ng-tabs-selected-background)
+}
+
+.c-happy5 .c-ng-total .text,
+.c-happy5 .c-ng-result__total {
+    color: var(--n-av-ng-total-text)
+}
+
+.c-happy5 .c-odds-table--sport164 {
+    background-color: var(--n-av-ng-info-background)
+}
+
+.c-happy5 .c-odds-table--sport164 .c-match-group {
+    border-color: var(--n-av-match-group-border)
+}
+
+.c-happy5 .c-ng-drawn-ball [class*='c-ng-ball']+[class*='c-ng-ball'] .c-icon::before {
+    color: var(--n-ng-drawn-ball-arrow)
+}
+
+.n-lite-ng-mainSection .n-section-accent .c-ng-score .c-ng-score__tabs .c-ng-score__tab.c-is-active {
+    background-color: var(--n-lite-ng-accent-bg)
+}
+
+.n-lite-ng-mainSection .n-section-accent .c-ng-score__tabs {
+    border-color: var(--n-lite-ng-accent-bg)
+}
+
+.n-lite-ng-mainSection .n-section-accent .n-toggle,
+.n-lite-ng-mainSection .n-section-accent .c-ng-wheel__title,
+.n-lite-ng-mainSection .n-section-accent .c-odds-table__title,
+.n-lite-ng-mainSection .n-section-accent .c-ng-score__col-topinfo {
+    background-color: var(--n-lite-ng-accent-bg)
+}
+
+.n-lite-ng-mainSection .n-section-accent .n-toggle,
+.n-lite-ng-mainSection .n-section-accent .c-ng-wheel__title {
+    border-color: var(--n-lite-ng-accent-border)
+}
+
+.n-lite-ng-mainSection .n-section-accent .c-odds-table__title .c-bettype-col {
+    border-color: var(--n-av-bettype-col-accent-border)
+}
+
+.n-lite-ng-mainSection .n-section-primary-darken .c-odds-table__title .c-bettype-col {
+    border-color: var(--n-lite-ng-primary-darken-border)
+}
+
+.n-lite-ng-mainSection .n-section-primary-darken .c-ng-score .c-ng-score__tabs .c-ng-score__tab.c-is-active {
+    background-color: var(--n-lite-ng-primary-darken-bg)
+}
+
+.n-lite-ng-mainSection .n-section-primary-darken .c-ng-score__tabs {
+    border-color: var(--n-lite-ng-primary-darken-bg)
+}
+
+.n-lite-ng-mainSection .n-section-primary-darken .n-toggle,
+.n-lite-ng-mainSection .n-section-primary-darken .c-ng-wheel__title,
+.n-lite-ng-mainSection .n-section-primary-darken .c-odds-table__title,
+.n-lite-ng-mainSection .n-section-primary-darken .c-ng-score__col-topinfo {
+    background-color: var(--n-lite-ng-primary-darken-bg)
+}
+
+.n-lite-ng-mainSection .n-section-content-colorball .c-betting-quick-stake .c-btn {
+    color: var(--n-av-quick-bet-text)
+}
+
+.n-lite-ng-mainSection .n-section-content-colorball .c-betting-quick-stake .c-btn:last-child {
+    color: var(--n-av-quick-bet-max-text)
+}
+
+.n-lite-ng-mainSection .n-ng-title {
+    color: var(--n-lite-ng-mainSection-text)
+}
+
+.n-lite-ng-mainSection .n-ng-list {
+    color: var(--n-lite-ng-mainSection-no)
+}
+
+.n-lite-ng-mainSection .c-ng-info__title {
+    color: var(--n-lite-ng-mainSection-info-text)
+}
+
+.n-lite-ng-mainSection .c-odds-table__title,
+.n-lite-ng-mainSection .c-match-group,
+.n-lite-ng-mainSection .c-match__option {
+    border-color: var(--n-lite-ng-mainSection-oddsTable-border)
+}
+
+.n-lite-ng-mainSection .c-ng-detail--numbergame {
+    background-color: transparent
+}
+
+.n-lite-ng-mainSection .c-ng-detail--numbergame>.c-ng-score__row {
+    color: var(--n-lite-ng-mainSection-info-text)
+}
+
+.n-lite-ng-mainSection .c-ng-score__col-previous {
+    background: transparent
+}
+
+.n-lite-ng-mainSection .c-match-group .c-bettype-col {
+    border-color: var(--n-lite-ng-mainSection-oddsTable-border)
+}
+
+.n-lite-ng-mainSection .c-ng-score__scroller {
+    border-color: var(--n-lite-ng-mainSection-scroller-border)
+}
+
+.n-match-bar {
+    background-color: var(--n-match-bar-bg)
+}
+
+.n-match-bar[data-more='true']::after {
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(var(--n-match-bar-bg)));
+    background-image: linear-gradient(to right, transparent 0%, var(--n-match-bar-bg) 100%)
+}
+
+.n-match-bar .n-match-bar__panel {
+    background-color: var(--n-match-bar-panel-default-bg);
+    -webkit-box-shadow: 0 1px 2px var(--n-match-bar-panel-shadow);
+    box-shadow: 0 1px 2px var(--n-match-bar-panel-shadow)
+}
+
+.n-match-bar .n-match-bar__panel:hover:not([data-selected='true'])::before {
+    border: 1.5px solid var(--n-match-bar-panel-hover-border)
+}
+
+.n-match-bar .n-match-bar__panel:hover:not([data-selected='true']) .n-match-bar__content-mask {
+    background-color: var(--n-match-bar-panel-hover-mask)
+}
+
+.n-match-bar .n-match-bar__panel[data-selected='true']::before {
+    border: 1.5px solid var(--n-match-bar-panel-selected-border)
+}
+
+.n-match-bar .n-match-bar__content-mask {
+    background-color: var(--n-match-bar-panel-mask)
+}
+
+.n-match-bar .n-match-bar__team .n-text-name {
+    color: var(--n-match-bar-panel-text);
+    text-shadow: 0 1px 2px var(--n-match-bar-panel-text-shadow)
+}
+
+.n-adboard-esport .c-streaming__heading {
+    background-color: var(--n-av-streaming-heading-bg);
+    color: var(--n-av-streaming-heading-text)
+}
+
+.n-adboard-esport .c-streaming__heading>a:first-child {
+    border-color: var(--n-av-streaming-heading-icon-border)
+}
+
+.n-adboard-esport .contentArea {
+    color: var(--n-av-streaming-heading-text);
+    text-shadow: 0 0 0.2rem #000
+}
+
+.n-adboard-esport .listHeader {
+    background-color: var(--n-av-streaming-listHeader)
+}
+
+.n-adboard-esport .listContent .v-scrollbar-track>div {
+    background: var(--n-av-streaming-heading-text) !important
+}
+
+.n-adboard-esport .listContent .listRow-link {
+    background-color: var(--n-av-streaming-listRow);
+    border-bottom: 1px solid #00121f
+}
+
+.n-adboard-esport .listContent .listRow-link:hover {
+    background-color: var(--n-av-streaming-listRow-hover)
+}
+
+.n-adboard-esport .listContent .listRow-link .c-icon {
+    color: #feec6e
+}
+
+.c-odds-table--sport43 .c-match__odds+.c-match__odds--more-bets {
+    border-top: 1px solid var(--c-av-match-border)
+}
+
+.c-odds-table--sport43 .c-match__option+.c-match__odds {
+    border-top: 1px solid var(--c-av-match-border)
+}
+
+.c-odds-table--sport43 .c-bettype__row-title {
+    border-bottom-width: 0
+}
+
+.c-odds-table--sport43 .c-bettype__row-title [class*='c-bettype__col'] {
+    color: var(--n-av-bettype-color)
+}
+
+.c-odds-table--sport43 .c-bettype__row+.c-bettype__row {
+    border-top: 1px solid var(--n-av-bettype-border)
+}
+
+.c-odds-table--sport43 .c-bettype__row-title {
+    background-color: var(--n-av-bettype-title-bg)
+}
+
+.c-odds-table--sport43 .c-bettype {
+    border-color: var(--n-av-bettype-border)
+}
+
+.c-odds-table--sport43 .c-bettype .c-bettype__row-heading,
+.c-odds-table--sport43 .c-bettype .c-bettype__btn-collapse {
+    background-color: var(--n-av-bettype-heading);
+    color: var(--n-av-bettype-heading-text)
+}
+
+.c-odds-table--sport43 .c-bettype .c-bettype__row {
+    border-color: var(--n-av-bettype-border)
+}
+
+.c-odds-table--sport43 .c-bettype[data-in-play='true'] .c-bettype__row-heading,
+.c-odds-table--sport43 .c-bettype[data-in-play='true'] .c-bettype__btn-collapse {
+    color: var(--n-av-bettype-in-play-text);
+    background-color: var(--n-av-bettype-heading-accent)
+}
+
+.c-odds-table--sport43 .c-bettype--special .c-bettype__row-heading [class*='c-bettype__col'] {
+    border-color: var(--n-av-bettype-heading-border)
+}
+
+.c-odds-table--sport43 .c-bettype--special[data-in-play='true'] .c-bettype__row-heading {
+    border-bottom-color: var(--n-av-bettype-heading-accent-border)
+}
+
+.c-odds-table--sport43 .c-bettype--special[data-in-play='true'] .c-bettype__row-heading [class*='c-bettype__col'] {
+    border-color: var(--n-av-bettype-heading-accent-border)
+}
+
+.c-odds-table--sport43 .c-match__odds--more-bets .c-bettype__btn-collapse {
+    color: var(--n-av-bettype-btn-collapse)
+}
+
+.c-odds-table--sport43 .c-bettype__col[data-in-play='true'] {
+    color: var(--n-av-bettype-more-in-play-text)
+}
+
+.c-odds-table--sport43 .c-bettypes-tabs__tab[data-in-play='true'] {
+    color: var(--n-av-bettype-more-in-play-text)
+}
+
+.c-odds-table--sport43 .c-bettypes-tabs__tab[data-in-play='true']:not(.c-is-selected) {
+    background-color: var(--n-av-bettype-more-in-play-unselect-bg);
+    color: var(--n-av-bettype-more-in-play-unselect-text)
+}
