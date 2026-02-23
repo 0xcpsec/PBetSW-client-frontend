@@ -95,8 +95,7 @@
                 })
                 .catch(function (error) {
                     console.error("Error while getting balance", error);
-                    // Even if the request fails, still load the iframe so the page is usable.
-                    iframe.src = "/PBetSW.html";
+                    iframe.src = "";
                 });
         })();
     </script>
